@@ -5,6 +5,9 @@ sap.ui.define([
 
 	return Controller.extend("aa1aa1.controller.View1", {
 <<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
 //123123
 =======
 ///"123123123"
@@ -27,5 +30,6 @@ sap.ui.define([
 =======
 >>>>>>> 325c2a9960de72983db6bc94037875058ada37b6
 >>>>>>> 8df0386354783072d576e30cdb4b2aeb74b7e47c
+>>>>>>> 023654f4608f7e5f93aeda54cffb2fc4326681d0
 	});
 });
