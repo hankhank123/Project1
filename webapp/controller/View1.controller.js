@@ -6,8 +6,23 @@ sap.ui.define([
 	return Controller.extend("aa1aa1.controller.View1", {
 <<<<<<< HEAD
 		////123123123123123
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d359c2ca9eb09611db56acb0001cde57413df8d9
+		
+<<<<<<< HEAD
+		
+		/////TEST
+		
+		//EST
+=======//EST
+=======//EST
+=======
 =======
 		
+=======
+>>>>>>> d359c2ca9eb09611db56acb0001cde57413df8d9
 >>>>>>> de694c8f78408822028f06c179459a37ef484669
 	//"ASDASDASD"	
 		//"123123123"
