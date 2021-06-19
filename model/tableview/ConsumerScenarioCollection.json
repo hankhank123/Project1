@@ -1,0 +1,30 @@
+[{
+	"__metadata": {
+		"id": "ConsumerScenarioCollection(SAP__Origin='QE4910_TGW',ConsumerType='TABLET',UniqueName='EMP_REC')",
+		"uri": "ConsumerScenarioCollection(SAP__Origin='QE4910_TGW',ConsumerType='TABLET',UniqueName='EMP_REC')",
+		"type": "TASKPROCESSING.ConsumerScenario",
+		"content_type": "application/atom+xml",
+		"media_src": "/sap/opu/odata/IWPGW/TASKPROCESSING;v=2;o=QE4910_TGW/TaskCollection?$filter=(TaskDefinitionID eq 'TS91000001_WS91000001_0000000004')"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"ConsumerType": "TABLET",
+	"UniqueName": "EMP_REC",
+	"DisplayName": "Employee Record",
+	"TotalItems": 0,
+	"OrderNumber": 0,
+	"SortBy": "TaskTitle",
+	"IsMassActionEnabled": false,
+	"IsQuickActionEnabled": false,
+	"ApplicationUrl": "",
+	"IconUrl": "",
+	"Extension1": "",
+	"Extension2": "",
+	"Extension3": "",
+	"ScenarioServiceURL": "/sap/opu/odata/IWPGW/TASKPROCESSING;v=2;o=QE4910_TGW/TaskCollection?$filter=(TaskDefinitionID eq 'TS91000001_WS91000001_0000000004')",
+	"mime_type": "application/atom+xml",
+	"Tasks": {
+		"__deferred": {
+			"uri": "ConsumerScenarioCollection(SAP__Origin='QE4910_TGW',ConsumerType='TABLET',UniqueName='EMP_REC')/Tasks"
+		}
+	}
+}]

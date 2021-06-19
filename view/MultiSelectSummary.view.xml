@@ -1,0 +1,38 @@
+<!--
+
+    Copyright (C) 2009-2018 SAP SE or an SAP affiliate company. All rights reserved.
+
+-->
+<core:View xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout"
+	xmlns="sap.m" controllerName="cross.fnd.fiori.inbox.view.MultiSelectSummary"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{i18n>multi.summary.headerText}">
+		<content>
+			<Table id="idMultiSelectTable" inset="true" items="{path: ''}">
+				<columns>
+					<Column width="3em">
+					</Column>
+					<Column>
+						<Text text="{i18n>multi.summary.title}" />
+					</Column>
+					<Column minScreenWidth="Tablet" demandPopin="true">
+						<Text text="{i18n>multi.summary.createdBy}" />
+					</Column>
+					<Column minScreenWidth="Tablet" demandPopin="true">
+						<Text text="{i18n>multi.summary.dueDate}" />
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem vAlign="Middle" id="LIST_ITEM">
+						<cells>
+							<CheckBox selected="{multiSelectSummaryModel>Selected}" select="onItemSelect"/>
+							<Text text="{parts: [{path: 'multiSelectSummaryModel>TaskTitle'}, {path: 'multiSelectSummaryModel>CustomAttributeData'}], formatter: 'cross.fnd.fiori.inbox.Conversions.formatterTaskTitle'}"/>
+							<Text text="{multiSelectSummaryModel>CreatedByName}" />
+							<Text text="{path: 'multiSelectSummaryModel>CompletionDeadLine', type:'sap.ca.ui.model.type.Date', formatOptions : { style:'daysAgo'}}" />
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+	</Page>
+</core:View>

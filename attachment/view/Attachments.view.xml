@@ -1,0 +1,34 @@
+<!--
+
+    Copyright (C) 2009-2018 SAP SE or an SAP affiliate company. All rights reserved.
+
+-->
+<core:View controllerName="cross.fnd.fiori.inbox.attachment.view.Attachments"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+
+<UploadCollection id="uploadCollection" items="{detail>/Attachments/results}" uploadEnabled="{path: 'detail>/TaskSupports/AddAttachments', formatter: 'cross.fnd.fiori.inbox.Conversions.formatterEnableUpload'}"  uploadComplete="onAttachmentUploadComplete" fileDeleted="onAttachmentDeleted" change="onAttachmentChange" sameFilenameAllowed="true">
+	<items>
+	<UploadCollectionItem 
+		contributor="{detail>CreatedByName}"
+		documentId="{detail>ID}" 
+		fileName="{detail>FileName}"
+		mimeType="{detail>mime_type}" 
+	    uploadedDate="{path: 'detail>CreatedAt', type: 'sap.ca.ui.model.type.DateTime', formatOptions: { style: 'medium'}}"
+		url="{ path: 'detail>__metadata/media_src', formatter: 'cross.fnd.fiori.inbox.attachment.getRelativeMediaSrc' }"
+		enableEdit="false"
+		visibleEdit="false"			
+		visibleDelete = "{detail>AttachmentSupports/Delete}">
+		
+		<attributes>
+			<ObjectAttribute
+				text="{path: 'detail>FileSize', formatter:'cross.fnd.fiori.inbox.attachment.formatFileSize'}"
+			/>
+		</attributes>
+		
+	</UploadCollectionItem>
+	</items>
+	<parameters/>
+</UploadCollection>
+
+</core:View>

@@ -1,4 +1,45 @@
 {
+<<<<<<< HEAD
+  "welcomeFile": "index.html",
+  "routes": [
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "S42",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "S42"
+    },
+    {
+      "path": "/sap/bc/ui5_ui5",
+      "target": {
+        "type": "destination",
+        "name": "S42",
+        "entryPath": "/sap/bc/ui5_ui5"
+      },
+      "description": "S42"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ]
+=======
   "welcomeFile": "/webapp/index.html",
   "routes": [
     {
@@ -23,4 +64,5 @@
     }
   ],
   "sendWelcomeFileRedirect": true
+>>>>>>> 5cf0cea21823cffc5d1f0b502a858b454a26dcb2
 }

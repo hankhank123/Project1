@@ -1,0 +1,2313 @@
+{
+  "_version": "1.1.0",
+  "resources": [
+    {
+      "name": ".Ui5RepositoryBinaryFiles"
+    },
+    {
+      "name": ".Ui5RepositoryIgnore"
+    },
+    {
+      "name": ".Ui5RepositoryTextFiles"
+    },
+    {
+      "name": "Component-dbg.js",
+      "module": "cross/fnd/fiori/inbox/Component.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/UIComponent.js",
+        "sap/ca/scfld/md/ConfigurationBase.js",
+        "sap/ui/core/routing/Router.js",
+        "sap/ca/scfld/md/ComponentBase.js"
+      ]
+    },
+    {
+      "name": "Component-preload-dbg.js",
+      "module": "cross/fnd/fiori/inbox/Component-preload-dbg.js",
+      "isDebug": true
+    },
+    {
+      "name": "Component-preload.js",
+      "merged": true
+    },
+    {
+      "name": "Component.js",
+      "module": "cross/fnd/fiori/inbox/Component.js",
+      "required": [
+        "sap/ui/core/UIComponent.js",
+        "sap/ca/scfld/md/ConfigurationBase.js",
+        "sap/ui/core/routing/Router.js",
+        "sap/ca/scfld/md/ComponentBase.js"
+      ]
+    },
+    {
+      "name": "Configuration-dbg.js",
+      "module": "cross/fnd/fiori/inbox/Configuration.js",
+      "isDebug": true,
+      "required": [
+        "sap/ca/scfld/md/ConfigurationBase.js",
+        "sap/ca/scfld/md/app/Application.js"
+      ]
+    },
+    {
+      "name": "Configuration.js",
+      "module": "cross/fnd/fiori/inbox/Configuration.js",
+      "required": [
+        "sap/ca/scfld/md/ConfigurationBase.js",
+        "sap/ca/scfld/md/app/Application.js"
+      ]
+    },
+    {
+      "name": "Main-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/Main.controller.js",
+      "isDebug": true
+    },
+    {
+      "name": "Main.controller.js",
+      "module": "cross/fnd/fiori/inbox/Main.controller.js"
+    },
+    {
+      "name": "Main.view.xml",
+      "module": "cross/fnd/fiori/inbox/Main.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/Main.controller.js",
+        "sap/m/NavContainer.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/Component-dbg.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/Component.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/sapUshellUtil.js",
+        "sap/ui/core/UIComponent.js",
+        "sap/ui/core/BusyIndicator.js",
+        "sap/ui/core/mvc/ViewType.js",
+        "sap/m/MessageBox.js",
+        "sap/ui/model/odata/v2/ODataModel.js",
+        "sap/ui/model/odata/CountMode.js",
+        "sap/ui/model/BindingMode.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/util.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/GUILinkParser.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/DecisionDialogManager.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/i18n.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/Component.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/Component.js",
+      "required": [
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/sapUshellUtil.js",
+        "sap/ui/core/UIComponent.js",
+        "sap/ui/core/BusyIndicator.js",
+        "sap/ui/core/mvc/ViewType.js",
+        "sap/m/MessageBox.js",
+        "sap/ui/model/odata/v2/ODataModel.js",
+        "sap/ui/model/odata/CountMode.js",
+        "sap/ui/model/BindingMode.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/util.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/GUILinkParser.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/DecisionDialogManager.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/i18n.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/fragments/DataField.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/DataField.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/ui/comp/smartform/GroupElement.js",
+        "sap/ui/comp/smartfield/SmartField.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/fragments/FacetForm.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/FacetForm.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js"
+      ],
+      "condRequired": [
+        "sap/ui/comp/smartform/SmartForm.js",
+        "sap/ui/core/CustomData.js",
+        "sap/ui/comp/smartform/Group.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/DataField.fragment.xml"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/fragments/FacetTable.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/FacetTable.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js"
+      ],
+      "condRequired": [
+        "sap/m/Table.js",
+        "sap/m/Toolbar.js",
+        "sap/m/Title.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/ListColumns.fragment.xml"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/fragments/Header.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/Header.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/ObjectHeader.js",
+        "sap/m/ObjectAttribute.js"
+      ],
+      "condRequired": [
+        "sap/m/ObjectStatus.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/fragments/InfoTab.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/InfoTab.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/IconTabFilter.js",
+        "sap/ui/comp/smartform/SmartForm.js",
+        "sap/ui/core/CustomData.js"
+      ],
+      "condRequired": [
+        "sap/ui/comp/smartform/Group.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/DataField.fragment.xml"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/fragments/ListColumns.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/ListColumns.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/ColumnListItem.js"
+      ],
+      "condRequired": [
+        "sap/m/Column.js",
+        "sap/m/Text.js",
+        "sap/ui/layout/VerticalLayout.js",
+        "sap/m/FormattedText.js",
+        "sap/ui/comp/smartfield/SmartField.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n.properties",
+      "locale": "",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_ar.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_ar.properties",
+      "locale": "ar",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_bg.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_bg.properties",
+      "locale": "bg",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_ca.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_ca.properties",
+      "locale": "ca",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_cs.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_cs.properties",
+      "locale": "cs",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_da.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_da.properties",
+      "locale": "da",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_de.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_de.properties",
+      "locale": "de",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_el.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_el.properties",
+      "locale": "el",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_en.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_en.properties",
+      "locale": "en",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_en_US_sappsd.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_en_US_sappsd.properties",
+      "locale": "en_US_sappsd",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_en_US_saptrc.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_en_US_saptrc.properties",
+      "locale": "en_US_saptrc",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_es.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_es.properties",
+      "locale": "es",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_et.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_et.properties",
+      "locale": "et",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_fi.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_fi.properties",
+      "locale": "fi",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_fr.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_fr.properties",
+      "locale": "fr",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_hi.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_hi.properties",
+      "locale": "hi",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_hr.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_hr.properties",
+      "locale": "hr",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_hu.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_hu.properties",
+      "locale": "hu",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_it.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_it.properties",
+      "locale": "it",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_iw.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_iw.properties",
+      "locale": "iw",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_ja.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_ja.properties",
+      "locale": "ja",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_kk.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_kk.properties",
+      "locale": "kk",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_ko.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_ko.properties",
+      "locale": "ko",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_lt.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_lt.properties",
+      "locale": "lt",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_lv.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_lv.properties",
+      "locale": "lv",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_ms.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_ms.properties",
+      "locale": "ms",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_nl.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_nl.properties",
+      "locale": "nl",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_no.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_no.properties",
+      "locale": "no",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_pl.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_pl.properties",
+      "locale": "pl",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_pt.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_pt.properties",
+      "locale": "pt",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_ro.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_ro.properties",
+      "locale": "ro",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_ru.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_ru.properties",
+      "locale": "ru",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_sh.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_sh.properties",
+      "locale": "sh",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_sk.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_sk.properties",
+      "locale": "sk",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_sl.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_sl.properties",
+      "locale": "sl",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_sv.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_sv.properties",
+      "locale": "sv",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_th.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_th.properties",
+      "locale": "th",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_tr.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_tr.properties",
+      "locale": "tr",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_uk.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_uk.properties",
+      "locale": "uk",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_vi.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_vi.properties",
+      "locale": "vi",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_zh_CN.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_zh_CN.properties",
+      "locale": "zh_CN",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/i18n/i18n_zh_TW.properties",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/i18n/i18n_zh_TW.properties",
+      "locale": "zh_TW",
+      "raw": "annotationBasedTaskUI/i18n/i18n.properties"
+    },
+    {
+      "name": "annotationBasedTaskUI/util/GUILinkParser-dbg.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/GUILinkParser.js",
+      "isDebug": true
+    },
+    {
+      "name": "annotationBasedTaskUI/util/GUILinkParser.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/GUILinkParser.js"
+    },
+    {
+      "name": "annotationBasedTaskUI/util/i18n-dbg.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/i18n.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/model/resource/ResourceModel.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/util/i18n.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/i18n.js",
+      "required": [
+        "sap/ui/model/resource/ResourceModel.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/util/navigationUtil-dbg.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/navigationUtil.js",
+      "isDebug": true
+    },
+    {
+      "name": "annotationBasedTaskUI/util/navigationUtil.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/navigationUtil.js"
+    },
+    {
+      "name": "annotationBasedTaskUI/util/sapUshellUtil-dbg.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/sapUshellUtil.js",
+      "isDebug": true
+    },
+    {
+      "name": "annotationBasedTaskUI/util/sapUshellUtil.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/sapUshellUtil.js"
+    },
+    {
+      "name": "annotationBasedTaskUI/util/util-dbg.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/util.js",
+      "isDebug": true
+    },
+    {
+      "name": "annotationBasedTaskUI/util/util.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/util.js"
+    },
+    {
+      "name": "annotationBasedTaskUI/view/App.view.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/App.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "sap/m/NavContainer.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/DecisionDialog-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/DecisionDialog.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/mvc/Controller.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/DecisionDialog.controller.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/DecisionDialog.controller.js",
+      "required": [
+        "sap/ui/core/mvc/Controller.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/DecisionDialog.view.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/DecisionDialog.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/DecisionDialog.controller.js",
+        "sap/m/Dialog.js",
+        "sap/m/Button.js",
+        "sap/ui/comp/smartform/SmartForm.js",
+        "sap/ui/comp/smartform/Layout.js",
+        "sap/ui/comp/smartform/Group.js",
+        "sap/ui/layout/GridData.js"
+      ],
+      "condRequired": [
+        "sap/ui/comp/smartform/GroupElement.js",
+        "sap/ui/comp/smartfield/SmartField.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/DecisionDialogManager-dbg.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/DecisionDialogManager.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/i18n.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/util.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/GUILinkParser.js",
+        "sap/m/Button.js",
+        "sap/m/ButtonType.js",
+        "sap/m/Dialog.js",
+        "sap/m/DialogType.js",
+        "sap/m/MessageBox.js",
+        "sap/m/MessageToast.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/DecisionDialogManager.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/DecisionDialogManager.js",
+      "required": [
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/i18n.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/util.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/GUILinkParser.js",
+        "sap/m/Button.js",
+        "sap/m/ButtonType.js",
+        "sap/m/Dialog.js",
+        "sap/m/DialogType.js",
+        "sap/m/MessageBox.js",
+        "sap/m/MessageToast.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/Detail-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/Detail.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/model/json/JSONModel.js",
+        "sap/ui/model/Binding.js",
+        "sap/ui/core/mvc/Controller.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/navigationUtil.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/i18n.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/Detail.controller.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/Detail.controller.js",
+      "required": [
+        "sap/ui/model/json/JSONModel.js",
+        "sap/ui/model/Binding.js",
+        "sap/ui/core/mvc/Controller.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/navigationUtil.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/i18n.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/Detail.view.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/Detail.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/Detail.controller.js",
+        "sap/m/Page.js",
+        "sap/ui/core/Fragment.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/Header.fragment.xml"
+      ],
+      "condRequired": [
+        "sap/m/IconTabBar.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/InfoTab.fragment.xml",
+        "sap/ui/layout/HorizontalLayout.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/FacetTable.fragment.xml",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/FacetForm.fragment.xml"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/TaskUI_S3-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/TaskUI_S3.controller.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/util.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/navigationUtil.js",
+        "sap/ui/core/mvc/Controller.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/TaskUI_S3.controller.js",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/TaskUI_S3.controller.js",
+      "required": [
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/util.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/util/navigationUtil.js",
+        "sap/ui/core/mvc/Controller.js"
+      ]
+    },
+    {
+      "name": "annotationBasedTaskUI/view/TaskUI_S3.view.xml",
+      "module": "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/TaskUI_S3.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/view/TaskUI_S3.controller.js",
+        "sap/m/Page.js",
+        "sap/ui/core/Fragment.js",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/Header.fragment.xml",
+        "sap/m/IconTabBar.js",
+        "sap/m/IconTabFilter.js",
+        "sap/ui/core/ExtensionPoint.js",
+        "sap/ui/core/ComponentContainer.js",
+        "cross/fnd/fiori/inbox/frag/ObjectLinks.fragment.xml",
+        "sap/ui/layout/HorizontalLayout.js"
+      ],
+      "condRequired": [
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/InfoTab.fragment.xml",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/FacetTable.fragment.xml",
+        "cross/fnd/fiori/inbox/annotationBasedTaskUI/fragments/FacetForm.fragment.xml"
+      ]
+    },
+    {
+      "name": "attachment/Component-dbg.js",
+      "module": "cross/fnd/fiori/inbox/attachment/Component.js",
+      "isDebug": true,
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/UIComponent.js",
+        "sap/ui/core/mvc/View.js"
+      ]
+    },
+    {
+      "name": "attachment/Component.js",
+      "module": "cross/fnd/fiori/inbox/attachment/Component.js",
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/UIComponent.js",
+        "sap/ui/core/mvc/View.js"
+      ]
+    },
+    {
+      "name": "attachment/i18n/i18n.properties",
+      "module": "cross/fnd/fiori/inbox/attachment/i18n/i18n.properties"
+    },
+    {
+      "name": "attachment/util/AttachmentFormatters-dbg.js",
+      "module": "cross/fnd/fiori/inbox/attachment/util/AttachmentFormatters.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/format/FileSizeFormat.js"
+      ]
+    },
+    {
+      "name": "attachment/util/AttachmentFormatters.js",
+      "module": "cross/fnd/fiori/inbox/attachment/util/AttachmentFormatters.js",
+      "required": [
+        "sap/ui/core/format/FileSizeFormat.js"
+      ]
+    },
+    {
+      "name": "attachment/view/Attachments-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/attachment/view/Attachments.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/mvc/Controller.js"
+      ]
+    },
+    {
+      "name": "attachment/view/Attachments.controller.js",
+      "module": "cross/fnd/fiori/inbox/attachment/view/Attachments.controller.js",
+      "required": [
+        "sap/ui/core/mvc/Controller.js"
+      ]
+    },
+    {
+      "name": "attachment/view/Attachments.view.xml",
+      "module": "cross/fnd/fiori/inbox/attachment/view/Attachments.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/attachment/view/Attachments.controller.js",
+        "sap/m/UploadCollection.js",
+        "sap/m/UploadCollectionItem.js",
+        "sap/m/ObjectAttribute.js"
+      ]
+    },
+    {
+      "name": "comments/Component-dbg.js",
+      "module": "cross/fnd/fiori/inbox/comments/Component.js",
+      "isDebug": true,
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/UIComponent.js",
+        "sap/ui/core/mvc/View.js",
+        "cross/fnd/fiori/inbox/comments/util/Formatters.js"
+      ]
+    },
+    {
+      "name": "comments/Component.js",
+      "module": "cross/fnd/fiori/inbox/comments/Component.js",
+      "required": [
+        "jquery.sap.global.js",
+        "sap/ui/core/UIComponent.js",
+        "sap/ui/core/mvc/View.js",
+        "cross/fnd/fiori/inbox/comments/util/Formatters.js"
+      ]
+    },
+    {
+      "name": "comments/i18n/i18n.properties",
+      "module": "cross/fnd/fiori/inbox/comments/i18n/i18n.properties"
+    },
+    {
+      "name": "comments/util/Formatters-dbg.js",
+      "module": "cross/fnd/fiori/inbox/comments/util/Formatters.js",
+      "isDebug": true
+    },
+    {
+      "name": "comments/util/Formatters.js",
+      "module": "cross/fnd/fiori/inbox/comments/util/Formatters.js"
+    },
+    {
+      "name": "comments/view/Comments-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/comments/view/Comments.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/mvc/Controller.js"
+      ]
+    },
+    {
+      "name": "comments/view/Comments.controller.js",
+      "module": "cross/fnd/fiori/inbox/comments/view/Comments.controller.js",
+      "required": [
+        "sap/ui/core/mvc/Controller.js"
+      ]
+    },
+    {
+      "name": "comments/view/Comments.view.xml",
+      "module": "cross/fnd/fiori/inbox/comments/view/Comments.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/comments/view/Comments.controller.js",
+        "sap/m/FeedInput.js",
+        "sap/m/List.js",
+        "sap/m/FeedListItem.js"
+      ]
+    },
+    {
+      "name": "css/inbox-dbg.css",
+      "isDebug": true
+    },
+    {
+      "name": "css/inbox.css"
+    },
+    {
+      "name": "filterbar/MyFilterBar-dbg.js",
+      "module": "cross/fnd/fiori/inbox/filterbar/MyFilterBar.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/comp/filterbar/FilterBar.js",
+        "sap/ui/comp/smartvariants/PersonalizableInfo.js",
+        "sap/ui/comp/smartvariants/SmartVariantManagement.js"
+      ]
+    },
+    {
+      "name": "filterbar/MyFilterBar.js",
+      "module": "cross/fnd/fiori/inbox/filterbar/MyFilterBar.js",
+      "required": [
+        "sap/ui/comp/filterbar/FilterBar.js",
+        "sap/ui/comp/smartvariants/PersonalizableInfo.js",
+        "sap/ui/comp/smartvariants/SmartVariantManagement.js"
+      ]
+    },
+    {
+      "name": "frag/AddSubstitute.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/frag/AddSubstitute.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/Dialog.js",
+        "sap/m/NavContainer.js",
+        "sap/m/Page.js",
+        "sap/m/Toolbar.js",
+        "sap/m/SearchField.js",
+        "cross/fnd/fiori/inbox/frag/UserPicker.fragment.xml",
+        "sap/m/List.js",
+        "cross/fnd/fiori/inbox/frag/SubstituteProfile.fragment.xml",
+        "sap/m/StandardListItem.js",
+        "sap/m/FlexBox.js",
+        "sap/ui/unified/Calendar.js",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "frag/JamShareItemDisplay.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/frag/JamShareItemDisplay.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/ObjectListItem.js",
+        "sap/m/ObjectAttribute.js",
+        "sap/m/ObjectStatus.js"
+      ]
+    },
+    {
+      "name": "frag/ObjectLinks.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/frag/ObjectLinks.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/List.js",
+        "sap/m/CustomListItem.js",
+        "sap/m/Link.js"
+      ]
+    },
+    {
+      "name": "frag/Resubmit.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/frag/Resubmit.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/Dialog.js",
+        "sap/m/Page.js",
+        "sap/ui/unified/Calendar.js",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "frag/SubstituteProfile.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/frag/SubstituteProfile.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/StandardListItem.js"
+      ]
+    },
+    {
+      "name": "frag/TaskGroupingDialog.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/frag/TaskGroupingDialog.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/ViewSettingsDialog.js",
+        "sap/m/ViewSettingsItem.js"
+      ]
+    },
+    {
+      "name": "frag/TaskSortingDialog.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/frag/TaskSortingDialog.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/ViewSettingsDialog.js",
+        "sap/m/ViewSettingsItem.js"
+      ]
+    },
+    {
+      "name": "frag/UserPicker.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/frag/UserPicker.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/List.js",
+        "sap/m/StandardListItem.js"
+      ]
+    },
+    {
+      "name": "frag/UserPickerDialog.fragment.xml",
+      "module": "cross/fnd/fiori/inbox/frag/UserPickerDialog.fragment.xml",
+      "required": [
+        "sap/ui/core/Fragment.js",
+        "sap/m/Dialog.js",
+        "sap/m/Page.js",
+        "sap/m/Toolbar.js",
+        "sap/m/SearchField.js",
+        "cross/fnd/fiori/inbox/frag/UserPicker.fragment.xml",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "i18n/i18n.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n.properties",
+      "locale": "",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_ar.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_ar.properties",
+      "locale": "ar",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_bg.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_bg.properties",
+      "locale": "bg",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_ca.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_ca.properties",
+      "locale": "ca",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_cs.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_cs.properties",
+      "locale": "cs",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_da.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_da.properties",
+      "locale": "da",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_de.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_de.properties",
+      "locale": "de",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_el.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_el.properties",
+      "locale": "el",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_en.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_en.properties",
+      "locale": "en",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_en_US_sappsd.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_en_US_sappsd.properties",
+      "locale": "en_US_sappsd",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_en_US_saptrc.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_en_US_saptrc.properties",
+      "locale": "en_US_saptrc",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_es.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_es.properties",
+      "locale": "es",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_et.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_et.properties",
+      "locale": "et",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_fi.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_fi.properties",
+      "locale": "fi",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_fr.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_fr.properties",
+      "locale": "fr",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_hi.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_hi.properties",
+      "locale": "hi",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_hr.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_hr.properties",
+      "locale": "hr",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_hu.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_hu.properties",
+      "locale": "hu",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_it.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_it.properties",
+      "locale": "it",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_iw.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_iw.properties",
+      "locale": "iw",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_ja.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_ja.properties",
+      "locale": "ja",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_kk.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_kk.properties",
+      "locale": "kk",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_ko.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_ko.properties",
+      "locale": "ko",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_lt.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_lt.properties",
+      "locale": "lt",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_lv.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_lv.properties",
+      "locale": "lv",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_ms.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_ms.properties",
+      "locale": "ms",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_nl.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_nl.properties",
+      "locale": "nl",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_no.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_no.properties",
+      "locale": "no",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_pl.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_pl.properties",
+      "locale": "pl",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_pt.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_pt.properties",
+      "locale": "pt",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_ro.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_ro.properties",
+      "locale": "ro",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_ru.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_ru.properties",
+      "locale": "ru",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_sh.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_sh.properties",
+      "locale": "sh",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_sk.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_sk.properties",
+      "locale": "sk",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_sl.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_sl.properties",
+      "locale": "sl",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_sv.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_sv.properties",
+      "locale": "sv",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_th.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_th.properties",
+      "locale": "th",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_tr.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_tr.properties",
+      "locale": "tr",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_uk.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_uk.properties",
+      "locale": "uk",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_vi.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_vi.properties",
+      "locale": "vi",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_zh_CN.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_zh_CN.properties",
+      "locale": "zh_CN",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "i18n/i18n_zh_TW.properties",
+      "module": "cross/fnd/fiori/inbox/i18n/i18n_zh_TW.properties",
+      "locale": "zh_TW",
+      "raw": "i18n/i18n.properties"
+    },
+    {
+      "name": "img/home/114_iPhone_Retina_Web_Clip.png"
+    },
+    {
+      "name": "img/home/144_iPad_Retina_Web_Clip.png"
+    },
+    {
+      "name": "img/home/57_iPhone_Desktop_Launch.png"
+    },
+    {
+      "name": "img/home/72_iPad_Desktop_Launch.png"
+    },
+    {
+      "name": "img/home/favicon.ico"
+    },
+    {
+      "name": "img/home/placeholder.jpg"
+    },
+    {
+      "name": "manifest.json",
+      "module": "cross/fnd/fiori/inbox/manifest.json"
+    },
+    {
+      "name": "model/AttachmentCollection.json"
+    },
+    {
+      "name": "model/CommentCollection.json"
+    },
+    {
+      "name": "model/CustomAttributeCollection.json"
+    },
+    {
+      "name": "model/CustomAttributeDefinitionCollection.json"
+    },
+    {
+      "name": "model/FilterOptionCollection.json"
+    },
+    {
+      "name": "model/MyInboxMockServerData-dbg.js",
+      "module": "cross/fnd/fiori/inbox/model/MyInboxMockServerData.js",
+      "isDebug": true
+    },
+    {
+      "name": "model/MyInboxMockServerData.js",
+      "module": "cross/fnd/fiori/inbox/model/MyInboxMockServerData.js"
+    },
+    {
+      "name": "model/ProcessingLogCollection.json"
+    },
+    {
+      "name": "model/Product.json"
+    },
+    {
+      "name": "model/PurchaseOrder.json"
+    },
+    {
+      "name": "model/PurchaseOrderItem.json"
+    },
+    {
+      "name": "model/Supplier.json"
+    },
+    {
+      "name": "model/TaskCollection.json"
+    },
+    {
+      "name": "model/TaskDefinitionCollection.json"
+    },
+    {
+      "name": "model/TaskDescriptionCollection.json"
+    },
+    {
+      "name": "model/TaskObjectCollection.json"
+    },
+    {
+      "name": "model/UserInfoCollection.json"
+    },
+    {
+      "name": "model/WorkflowLogCollection.json"
+    },
+    {
+      "name": "model/metadata.xml"
+    },
+    {
+      "name": "model/mockRequests-dbg.js",
+      "module": "cross/fnd/fiori/inbox/model/mockRequests.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/model/MyInboxMockServerData.js"
+      ]
+    },
+    {
+      "name": "model/mockRequests.js",
+      "module": "cross/fnd/fiori/inbox/model/mockRequests.js",
+      "required": [
+        "cross/fnd/fiori/inbox/model/MyInboxMockServerData.js"
+      ]
+    },
+    {
+      "name": "model/tableview/ConsumerScenarioCollection.json"
+    },
+    {
+      "name": "model/tableview/CustomAttributeCollection.json"
+    },
+    {
+      "name": "model/tableview/CustomAttributeDefinitionCollection.json"
+    },
+    {
+      "name": "model/tableview/ProcessingLogCollection.json"
+    },
+    {
+      "name": "model/tableview/TaskCollection.json"
+    },
+    {
+      "name": "model/tableview/TaskDefinitionCollection.json"
+    },
+    {
+      "name": "model/tableview/WorkflowLogCollection.json"
+    },
+    {
+      "name": "model/tableview/component-test-changes.json"
+    },
+    {
+      "name": "model/tableview/metadata.xml"
+    },
+    {
+      "name": "neo-app.json"
+    },
+    {
+      "name": "resources.json"
+    },
+    {
+      "name": "util/ActionHelper-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/ActionHelper.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/base/Object.js",
+        "cross/fnd/fiori/inbox/util/Parser.js"
+      ]
+    },
+    {
+      "name": "util/ActionHelper.js",
+      "module": "cross/fnd/fiori/inbox/util/ActionHelper.js",
+      "required": [
+        "sap/ui/base/Object.js",
+        "cross/fnd/fiori/inbox/util/Parser.js"
+      ]
+    },
+    {
+      "name": "util/AddInbox-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/AddInbox.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/util/Substitution.js"
+      ]
+    },
+    {
+      "name": "util/AddInbox.js",
+      "module": "cross/fnd/fiori/inbox/util/AddInbox.js",
+      "required": [
+        "cross/fnd/fiori/inbox/util/Substitution.js"
+      ]
+    },
+    {
+      "name": "util/ComponentCache-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/ComponentCache.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/Device.js",
+        "sap/ui/core/UIComponent.js"
+      ]
+    },
+    {
+      "name": "util/ComponentCache.js",
+      "module": "cross/fnd/fiori/inbox/util/ComponentCache.js",
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/Device.js",
+        "sap/ui/core/UIComponent.js"
+      ]
+    },
+    {
+      "name": "util/ConfirmationDialogManager-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/m/Button.js",
+        "sap/m/Dialog.js",
+        "sap/m/Text.js",
+        "sap/m/TextArea.js"
+      ]
+    },
+    {
+      "name": "util/ConfirmationDialogManager.js",
+      "module": "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/m/Button.js",
+        "sap/m/Dialog.js",
+        "sap/m/Text.js",
+        "sap/m/TextArea.js"
+      ]
+    },
+    {
+      "name": "util/Conversions-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/Conversions.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/format/NumberFormat.js",
+        "sap/ui/core/format/DateFormat.js",
+        "sap/ui/core/IconPool.js",
+        "cross/fnd/fiori/inbox/util/Parser.js",
+        "cross/fnd/fiori/inbox/util/CustomAttributeComparator.js"
+      ]
+    },
+    {
+      "name": "util/Conversions.js",
+      "module": "cross/fnd/fiori/inbox/util/Conversions.js",
+      "required": [
+        "sap/ui/core/format/NumberFormat.js",
+        "sap/ui/core/format/DateFormat.js",
+        "sap/ui/core/IconPool.js",
+        "cross/fnd/fiori/inbox/util/Parser.js",
+        "cross/fnd/fiori/inbox/util/CustomAttributeComparator.js"
+      ]
+    },
+    {
+      "name": "util/CustomAttributeComparator-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/CustomAttributeComparator.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/format/DateFormat.js"
+      ]
+    },
+    {
+      "name": "util/CustomAttributeComparator.js",
+      "module": "cross/fnd/fiori/inbox/util/CustomAttributeComparator.js",
+      "required": [
+        "sap/ui/core/format/DateFormat.js"
+      ]
+    },
+    {
+      "name": "util/DataManager-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/DataManager.js",
+      "isDebug": true,
+      "required": [
+        "sap/ca/ui/utils/busydialog.js",
+        "sap/ca/ui/message/message.js",
+        "cross/fnd/fiori/inbox/util/Substitution.js"
+      ]
+    },
+    {
+      "name": "util/DataManager.js",
+      "module": "cross/fnd/fiori/inbox/util/DataManager.js",
+      "required": [
+        "sap/ca/ui/utils/busydialog.js",
+        "sap/ca/ui/message/message.js",
+        "cross/fnd/fiori/inbox/util/Substitution.js"
+      ]
+    },
+    {
+      "name": "util/EmployeeCard-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/EmployeeCard.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/util/QuickView.js",
+        "cross/fnd/fiori/inbox/util/Conversions.js"
+      ]
+    },
+    {
+      "name": "util/EmployeeCard.js",
+      "module": "cross/fnd/fiori/inbox/util/EmployeeCard.js",
+      "required": [
+        "cross/fnd/fiori/inbox/util/QuickView.js",
+        "cross/fnd/fiori/inbox/util/Conversions.js"
+      ]
+    },
+    {
+      "name": "util/FilterItemsCreator-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/FilterItemsCreator.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/FilterItemsCreator.js",
+      "module": "cross/fnd/fiori/inbox/util/FilterItemsCreator.js"
+    },
+    {
+      "name": "util/FooterButtonExtension-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/FooterButtonExtension.js",
+      "isDebug": true,
+      "required": [
+        "sap/ca/scfld/md/app/ButtonListHelper.js"
+      ]
+    },
+    {
+      "name": "util/FooterButtonExtension.js",
+      "module": "cross/fnd/fiori/inbox/util/FooterButtonExtension.js",
+      "required": [
+        "sap/ca/scfld/md/app/ButtonListHelper.js"
+      ]
+    },
+    {
+      "name": "util/Forward-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/Forward.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/Forward.js",
+      "module": "cross/fnd/fiori/inbox/util/Forward.js"
+    },
+    {
+      "name": "util/ForwardSimple-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/ForwardSimple.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/ForwardSimple.js",
+      "module": "cross/fnd/fiori/inbox/util/ForwardSimple.js"
+    },
+    {
+      "name": "util/IDHelper-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/IDHelper.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/IDHelper.js",
+      "module": "cross/fnd/fiori/inbox/util/IDHelper.js"
+    },
+    {
+      "name": "util/InboxFilterContributor-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/InboxFilterContributor.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/util/FilterItemsCreator.js"
+      ]
+    },
+    {
+      "name": "util/InboxFilterContributor.js",
+      "module": "cross/fnd/fiori/inbox/util/InboxFilterContributor.js",
+      "required": [
+        "cross/fnd/fiori/inbox/util/FilterItemsCreator.js"
+      ]
+    },
+    {
+      "name": "util/MultiSelect-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/MultiSelect.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/MultiSelect.js",
+      "module": "cross/fnd/fiori/inbox/util/MultiSelect.js"
+    },
+    {
+      "name": "util/ODataExtension-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/ODataExtension.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/model/odata/v2/ODataModel.js",
+        "cross/fnd/fiori/inbox/util/pagination/ODataListBindingExtension.js"
+      ]
+    },
+    {
+      "name": "util/ODataExtension.js",
+      "module": "cross/fnd/fiori/inbox/util/ODataExtension.js",
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/model/odata/v2/ODataModel.js",
+        "cross/fnd/fiori/inbox/util/pagination/ODataListBindingExtension.js"
+      ]
+    },
+    {
+      "name": "util/OutboxFilterContributor-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/OutboxFilterContributor.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/util/FilterItemsCreator.js",
+        "cross/fnd/fiori/inbox/util/Forward.js"
+      ]
+    },
+    {
+      "name": "util/OutboxFilterContributor.js",
+      "module": "cross/fnd/fiori/inbox/util/OutboxFilterContributor.js",
+      "required": [
+        "cross/fnd/fiori/inbox/util/FilterItemsCreator.js",
+        "cross/fnd/fiori/inbox/util/Forward.js"
+      ]
+    },
+    {
+      "name": "util/Parser-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/Parser.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/Parser.js",
+      "module": "cross/fnd/fiori/inbox/util/Parser.js"
+    },
+    {
+      "name": "util/ProcessLogConfig.json"
+    },
+    {
+      "name": "util/QuickView-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/QuickView.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/util/Conversions.js"
+      ]
+    },
+    {
+      "name": "util/QuickView.js",
+      "module": "cross/fnd/fiori/inbox/util/QuickView.js",
+      "required": [
+        "cross/fnd/fiori/inbox/util/Conversions.js"
+      ]
+    },
+    {
+      "name": "util/Resubmit-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/Resubmit.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/Resubmit.js",
+      "module": "cross/fnd/fiori/inbox/util/Resubmit.js"
+    },
+    {
+      "name": "util/Substitution-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/Substitution.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/util/Conversions.js"
+      ]
+    },
+    {
+      "name": "util/Substitution.js",
+      "module": "cross/fnd/fiori/inbox/util/Substitution.js",
+      "required": [
+        "cross/fnd/fiori/inbox/util/Conversions.js"
+      ]
+    },
+    {
+      "name": "util/SupportInfo-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/SupportInfo.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/SupportInfo.js",
+      "module": "cross/fnd/fiori/inbox/util/SupportInfo.js"
+    },
+    {
+      "name": "util/TableOperations-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/TableOperations.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/base/Object.js",
+        "cross/fnd/fiori/inbox/util/TableOperationsImpl.js"
+      ]
+    },
+    {
+      "name": "util/TableOperations.js",
+      "module": "cross/fnd/fiori/inbox/util/TableOperations.js",
+      "required": [
+        "sap/ui/base/Object.js",
+        "cross/fnd/fiori/inbox/util/TableOperationsImpl.js"
+      ]
+    },
+    {
+      "name": "util/TableOperationsImpl-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/TableOperationsImpl.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/model/Sorter.js",
+        "sap/ui/model/Filter.js",
+        "sap/ui/model/FilterOperator.js"
+      ]
+    },
+    {
+      "name": "util/TableOperationsImpl.js",
+      "module": "cross/fnd/fiori/inbox/util/TableOperationsImpl.js",
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/model/Sorter.js",
+        "sap/ui/model/Filter.js",
+        "sap/ui/model/FilterOperator.js"
+      ]
+    },
+    {
+      "name": "util/TaskListCustomAttributeHelper-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/TaskListCustomAttributeHelper.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/m/Column.js"
+      ]
+    },
+    {
+      "name": "util/TaskListCustomAttributeHelper.js",
+      "module": "cross/fnd/fiori/inbox/util/TaskListCustomAttributeHelper.js",
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/m/Column.js"
+      ]
+    },
+    {
+      "name": "util/TaskListGroupingHelper-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/TaskListGroupingHelper.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/model/Sorter.js",
+        "sap/m/ViewSettingsItem.js"
+      ]
+    },
+    {
+      "name": "util/TaskListGroupingHelper.js",
+      "module": "cross/fnd/fiori/inbox/util/TaskListGroupingHelper.js",
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/model/Sorter.js",
+        "sap/m/ViewSettingsItem.js"
+      ]
+    },
+    {
+      "name": "util/TaskListSortingHelper-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/TaskListSortingHelper.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/model/Sorter.js",
+        "sap/m/ViewSettingsItem.js",
+        "cross/fnd/fiori/inbox/util/CustomAttributeComparator.js"
+      ]
+    },
+    {
+      "name": "util/TaskListSortingHelper.js",
+      "module": "cross/fnd/fiori/inbox/util/TaskListSortingHelper.js",
+      "required": [
+        "sap/ui/base/Object.js",
+        "sap/ui/model/Sorter.js",
+        "sap/m/ViewSettingsItem.js",
+        "cross/fnd/fiori/inbox/util/CustomAttributeComparator.js"
+      ]
+    },
+    {
+      "name": "util/TaskStatusFilterProvider-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/TaskStatusFilterProvider.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/TaskStatusFilterProvider.js",
+      "module": "cross/fnd/fiori/inbox/util/TaskStatusFilterProvider.js"
+    },
+    {
+      "name": "util/oDataReadExtension-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/oDataReadExtension.js",
+      "isDebug": true
+    },
+    {
+      "name": "util/oDataReadExtension.js",
+      "module": "cross/fnd/fiori/inbox/util/oDataReadExtension.js"
+    },
+    {
+      "name": "util/pagination/CustomFilterProcessor-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/pagination/CustomFilterProcessor.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/model/FilterProcessor.js"
+      ]
+    },
+    {
+      "name": "util/pagination/CustomFilterProcessor.js",
+      "module": "cross/fnd/fiori/inbox/util/pagination/CustomFilterProcessor.js",
+      "required": [
+        "sap/ui/model/FilterProcessor.js"
+      ]
+    },
+    {
+      "name": "util/pagination/CustomSorterProcessor-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/pagination/CustomSorterProcessor.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/model/SorterProcessor.js"
+      ]
+    },
+    {
+      "name": "util/pagination/CustomSorterProcessor.js",
+      "module": "cross/fnd/fiori/inbox/util/pagination/CustomSorterProcessor.js",
+      "required": [
+        "sap/ui/model/SorterProcessor.js"
+      ]
+    },
+    {
+      "name": "util/pagination/ODataListBindingExtension-dbg.js",
+      "module": "cross/fnd/fiori/inbox/util/pagination/ODataListBindingExtension.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/model/odata/CountMode.js",
+        "sap/ui/model/odata/OperationMode.js",
+        "sap/ui/model/odata/v2/ODataListBinding.js",
+        "sap/ui/model/ChangeReason.js",
+        "sap/ui/model/odata/Filter.js",
+        "cross/fnd/fiori/inbox/util/pagination/CustomFilterProcessor.js",
+        "cross/fnd/fiori/inbox/util/pagination/CustomSorterProcessor.js"
+      ]
+    },
+    {
+      "name": "util/pagination/ODataListBindingExtension.js",
+      "module": "cross/fnd/fiori/inbox/util/pagination/ODataListBindingExtension.js",
+      "required": [
+        "sap/ui/model/odata/CountMode.js",
+        "sap/ui/model/odata/OperationMode.js",
+        "sap/ui/model/odata/v2/ODataListBinding.js",
+        "sap/ui/model/ChangeReason.js",
+        "sap/ui/model/odata/Filter.js",
+        "cross/fnd/fiori/inbox/util/pagination/CustomFilterProcessor.js",
+        "cross/fnd/fiori/inbox/util/pagination/CustomSorterProcessor.js"
+      ]
+    },
+    {
+      "name": "version.json"
+    },
+    {
+      "name": "view/AddInbox-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/AddInbox.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ca/ui/utils/resourcebundle.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/AddInbox.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/AddInbox.controller.js",
+      "required": [
+        "sap/ca/ui/utils/resourcebundle.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/AddInbox.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/AddInbox.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/AddInbox.controller.js",
+        "sap/m/Dialog.js",
+        "sap/m/List.js",
+        "sap/m/CustomListItem.js",
+        "sap/m/VBox.js",
+        "sap/m/FlexBox.js",
+        "sap/m/HBox.js",
+        "sap/m/Image.js",
+        "sap/m/Link.js",
+        "sap/m/Switch.js",
+        "sap/m/ObjectStatus.js",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "view/Forward-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/Forward.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ca/ui/utils/resourcebundle.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/Forward.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/Forward.controller.js",
+      "required": [
+        "sap/ca/ui/utils/resourcebundle.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/Forward.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/Forward.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/Forward.controller.js",
+        "sap/m/Dialog.js",
+        "sap/m/Bar.js",
+        "sap/m/SearchField.js",
+        "sap/m/List.js",
+        "sap/m/StandardListItem.js",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "view/ForwardSimple-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/ForwardSimple.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ca/ui/utils/resourcebundle.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/ForwardSimple.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/ForwardSimple.controller.js",
+      "required": [
+        "sap/ca/ui/utils/resourcebundle.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/ForwardSimple.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/ForwardSimple.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/ForwardSimple.controller.js",
+        "sap/m/Dialog.js",
+        "sap/ui/layout/form/SimpleForm.js",
+        "sap/m/Label.js",
+        "sap/m/Input.js",
+        "sap/m/TextArea.js",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "view/MultiSelectDetail-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectDetail.controller.js",
+      "isDebug": true
+    },
+    {
+      "name": "view/MultiSelectDetail.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectDetail.controller.js"
+    },
+    {
+      "name": "view/MultiSelectDetail.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectDetail.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/MultiSelectDetail.controller.js",
+        "sap/m/Dialog.js",
+        "sap/m/TextArea.js",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "view/MultiSelectFilter-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectFilter.controller.js",
+      "isDebug": true
+    },
+    {
+      "name": "view/MultiSelectFilter.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectFilter.controller.js"
+    },
+    {
+      "name": "view/MultiSelectFilter.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectFilter.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/MultiSelectFilter.controller.js",
+        "sap/m/Dialog.js",
+        "sap/m/VBox.js",
+        "sap/m/List.js",
+        "sap/m/StandardListItem.js",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "view/MultiSelectMessage-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectMessage.controller.js",
+      "isDebug": true
+    },
+    {
+      "name": "view/MultiSelectMessage.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectMessage.controller.js"
+    },
+    {
+      "name": "view/MultiSelectMessage.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectMessage.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/MultiSelectMessage.controller.js",
+        "sap/m/Dialog.js",
+        "sap/m/Table.js",
+        "sap/m/Column.js",
+        "sap/m/Text.js",
+        "sap/m/ColumnListItem.js",
+        "sap/ui/layout/Grid.js",
+        "sap/m/ObjectStatus.js",
+        "sap/ui/layout/GridData.js",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "view/MultiSelectSummary-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectSummary.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ca/scfld/md/controller/BaseDetailController.js"
+      ]
+    },
+    {
+      "name": "view/MultiSelectSummary.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectSummary.controller.js",
+      "required": [
+        "sap/ca/scfld/md/controller/BaseDetailController.js"
+      ]
+    },
+    {
+      "name": "view/MultiSelectSummary.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/MultiSelectSummary.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/MultiSelectSummary.controller.js",
+        "sap/m/Page.js",
+        "sap/m/Table.js",
+        "sap/m/Column.js",
+        "sap/m/Text.js",
+        "sap/m/ColumnListItem.js",
+        "sap/m/CheckBox.js"
+      ]
+    },
+    {
+      "name": "view/ReplaceDetail-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/ReplaceDetail.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ca/scfld/md/controller/BaseFullscreenController.js"
+      ]
+    },
+    {
+      "name": "view/ReplaceDetail.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/ReplaceDetail.controller.js",
+      "required": [
+        "sap/ca/scfld/md/controller/BaseFullscreenController.js"
+      ]
+    },
+    {
+      "name": "view/ReplaceDetail.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/ReplaceDetail.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/ReplaceDetail.controller.js",
+        "sap/ui/core/ComponentContainer.js"
+      ]
+    },
+    {
+      "name": "view/S2-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/S2.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ca/scfld/md/controller/ScfldMasterController.js",
+        "cross/fnd/fiori/inbox/util/MultiSelect.js",
+        "cross/fnd/fiori/inbox/util/Forward.js",
+        "cross/fnd/fiori/inbox/util/ForwardSimple.js",
+        "cross/fnd/fiori/inbox/util/SupportInfo.js",
+        "cross/fnd/fiori/inbox/util/Resubmit.js",
+        "cross/fnd/fiori/inbox/util/TaskStatusFilterProvider.js",
+        "cross/fnd/fiori/inbox/util/InboxFilterContributor.js",
+        "cross/fnd/fiori/inbox/util/OutboxFilterContributor.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/Substitution.js",
+        "cross/fnd/fiori/inbox/util/ODataExtension.js"
+      ]
+    },
+    {
+      "name": "view/S2.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/S2.controller.js",
+      "required": [
+        "sap/ca/scfld/md/controller/ScfldMasterController.js",
+        "cross/fnd/fiori/inbox/util/MultiSelect.js",
+        "cross/fnd/fiori/inbox/util/Forward.js",
+        "cross/fnd/fiori/inbox/util/ForwardSimple.js",
+        "cross/fnd/fiori/inbox/util/SupportInfo.js",
+        "cross/fnd/fiori/inbox/util/Resubmit.js",
+        "cross/fnd/fiori/inbox/util/TaskStatusFilterProvider.js",
+        "cross/fnd/fiori/inbox/util/InboxFilterContributor.js",
+        "cross/fnd/fiori/inbox/util/OutboxFilterContributor.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/Substitution.js",
+        "cross/fnd/fiori/inbox/util/ODataExtension.js"
+      ]
+    },
+    {
+      "name": "view/S2.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/S2.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/S2.controller.js",
+        "sap/m/Page.js",
+        "sap/m/List.js",
+        "sap/ui/core/ExtensionPoint.js",
+        "sap/m/ObjectListItem.js",
+        "sap/m/ObjectAttribute.js",
+        "sap/m/ObjectStatus.js",
+        "sap/m/Button.js",
+        "sap/m/Bar.js"
+      ]
+    },
+    {
+      "name": "view/S2_FilterBar-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/S2_FilterBar.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/model/Filter.js",
+        "sap/ui/model/FilterOperator.js",
+        "sap/ui/model/Sorter.js",
+        "sap/m/Token.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/S2_FilterBar.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/S2_FilterBar.controller.js",
+      "required": [
+        "sap/ui/model/Filter.js",
+        "sap/ui/model/FilterOperator.js",
+        "sap/ui/model/Sorter.js",
+        "sap/m/Token.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/S2_FilterBar.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/S2_FilterBar.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/S2_FilterBar.controller.js",
+        "cross/fnd/fiori/inbox/filterbar/MyFilterBar.js",
+        "sap/ui/comp/filterbar/FilterItem.js",
+        "sap/m/MultiComboBox.js",
+        "sap/m/MultiInput.js",
+        "sap/ui/core/Item.js",
+        "sap/m/DatePicker.js",
+        "sap/m/DateRangeSelection.js"
+      ]
+    },
+    {
+      "name": "view/S2_TaskList-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/S2_TaskList.controller.js",
+      "isDebug": true,
+      "required": [
+        "sap/ui/core/UIComponent.js",
+        "sap/ui/core/mvc/ViewType.js",
+        "sap/ui/model/Sorter.js",
+        "sap/ui/model/Filter.js",
+        "sap/ui/model/FilterOperator.js",
+        "sap/ui/model/json/JSONModel.js",
+        "sap/m/Column.js",
+        "sap/m/MessageToast.js",
+        "sap/m/TablePersoController.js",
+        "sap/m/GroupHeaderListItem.js",
+        "cross/fnd/fiori/inbox/util/TableOperations.js",
+        "cross/fnd/fiori/inbox/util/TaskListGroupingHelper.js",
+        "cross/fnd/fiori/inbox/util/TaskListSortingHelper.js",
+        "cross/fnd/fiori/inbox/util/TaskListCustomAttributeHelper.js",
+        "cross/fnd/fiori/inbox/util/DataManager.js",
+        "sap/ca/scfld/md/controller/BaseFullscreenController.js",
+        "sap/m/semantic/PositiveAction.js",
+        "sap/m/semantic/NegativeAction.js",
+        "sap/m/Button.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/Forward.js",
+        "cross/fnd/fiori/inbox/util/Resubmit.js",
+        "cross/fnd/fiori/inbox/util/MultiSelect.js",
+        "cross/fnd/fiori/inbox/util/ActionHelper.js"
+      ]
+    },
+    {
+      "name": "view/S2_TaskList.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/S2_TaskList.controller.js",
+      "required": [
+        "sap/ui/core/UIComponent.js",
+        "sap/ui/core/mvc/ViewType.js",
+        "sap/ui/model/Sorter.js",
+        "sap/ui/model/Filter.js",
+        "sap/ui/model/FilterOperator.js",
+        "sap/ui/model/json/JSONModel.js",
+        "sap/m/Column.js",
+        "sap/m/MessageToast.js",
+        "sap/m/TablePersoController.js",
+        "sap/m/GroupHeaderListItem.js",
+        "cross/fnd/fiori/inbox/util/TableOperations.js",
+        "cross/fnd/fiori/inbox/util/TaskListGroupingHelper.js",
+        "cross/fnd/fiori/inbox/util/TaskListSortingHelper.js",
+        "cross/fnd/fiori/inbox/util/TaskListCustomAttributeHelper.js",
+        "cross/fnd/fiori/inbox/util/DataManager.js",
+        "sap/ca/scfld/md/controller/BaseFullscreenController.js",
+        "sap/m/semantic/PositiveAction.js",
+        "sap/m/semantic/NegativeAction.js",
+        "sap/m/Button.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/Forward.js",
+        "cross/fnd/fiori/inbox/util/Resubmit.js",
+        "cross/fnd/fiori/inbox/util/MultiSelect.js",
+        "cross/fnd/fiori/inbox/util/ActionHelper.js"
+      ]
+    },
+    {
+      "name": "view/S2_TaskList.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/S2_TaskList.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/S2_TaskList.controller.js",
+        "sap/m/semantic/FullscreenPage.js",
+        "sap/m/Table.js",
+        "sap/m/OverflowToolbar.js",
+        "sap/m/Title.js",
+        "sap/m/ToolbarSpacer.js",
+        "sap/m/OverflowToolbarButton.js",
+        "sap/m/Column.js",
+        "sap/m/Label.js",
+        "sap/m/ColumnListItem.js",
+        "sap/m/ObjectIdentifier.js",
+        "sap/m/Text.js",
+        "sap/m/ObjectStatus.js"
+      ]
+    },
+    {
+      "name": "view/S3-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/S3.controller.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/util/Forward.js",
+        "cross/fnd/fiori/inbox/util/ForwardSimple.js",
+        "cross/fnd/fiori/inbox/util/SupportInfo.js",
+        "cross/fnd/fiori/inbox/util/Conversions.js",
+        "cross/fnd/fiori/inbox/attachment/util/AttachmentFormatters.js",
+        "cross/fnd/fiori/inbox/util/DataManager.js",
+        "sap/ca/scfld/md/controller/BaseDetailController.js",
+        "sap/ca/ui/message/message.js",
+        "sap/ca/ui/model/type/DateTime.js",
+        "cross/fnd/fiori/inbox/util/Resubmit.js",
+        "cross/fnd/fiori/inbox/util/Parser.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js",
+        "cross/fnd/fiori/inbox/util/ComponentCache.js"
+      ]
+    },
+    {
+      "name": "view/S3.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/S3.controller.js",
+      "required": [
+        "cross/fnd/fiori/inbox/util/Forward.js",
+        "cross/fnd/fiori/inbox/util/ForwardSimple.js",
+        "cross/fnd/fiori/inbox/util/SupportInfo.js",
+        "cross/fnd/fiori/inbox/util/Conversions.js",
+        "cross/fnd/fiori/inbox/attachment/util/AttachmentFormatters.js",
+        "cross/fnd/fiori/inbox/util/DataManager.js",
+        "sap/ca/scfld/md/controller/BaseDetailController.js",
+        "sap/ca/ui/message/message.js",
+        "sap/ca/ui/model/type/DateTime.js",
+        "cross/fnd/fiori/inbox/util/Resubmit.js",
+        "cross/fnd/fiori/inbox/util/Parser.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js",
+        "cross/fnd/fiori/inbox/util/ComponentCache.js"
+      ]
+    },
+    {
+      "name": "view/S3.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/S3.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/S3.controller.js",
+        "sap/m/Page.js",
+        "sap/ui/layout/DynamicSideContent.js",
+        "sap/ui/core/ComponentContainer.js",
+        "sap/ui/core/ExtensionPoint.js",
+        "sap/m/ObjectHeader.js",
+        "sap/m/ObjectAttribute.js",
+        "sap/m/ObjectStatus.js",
+        "sap/m/IconTabBar.js",
+        "sap/m/IconTabFilter.js",
+        "sap/ui/layout/VerticalLayout.js",
+        "sap/ui/core/HTML.js",
+        "sap/ui/layout/form/Form.js",
+        "sap/ui/layout/form/FormContainer.js",
+        "sap/ui/layout/form/ResponsiveLayout.js",
+        "sap/ui/core/Fragment.js",
+        "cross/fnd/fiori/inbox/frag/ObjectLinks.fragment.xml",
+        "sap/suite/ui/commons/Timeline.js",
+        "sap/m/Bar.js"
+      ]
+    },
+    {
+      "name": "view/SupportInfo-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/SupportInfo.controller.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/util/SupportInfo.js"
+      ]
+    },
+    {
+      "name": "view/SupportInfo.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/SupportInfo.controller.js",
+      "required": [
+        "cross/fnd/fiori/inbox/util/SupportInfo.js"
+      ]
+    },
+    {
+      "name": "view/SupportInfo.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/SupportInfo.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/SupportInfo.controller.js",
+        "sap/m/Dialog.js",
+        "sap/m/Panel.js",
+        "sap/ui/layout/form/SimpleForm.js",
+        "sap/m/Label.js",
+        "sap/m/Text.js",
+        "sap/m/Table.js",
+        "sap/m/Column.js",
+        "sap/m/ColumnListItem.js",
+        "sap/m/Button.js"
+      ]
+    },
+    {
+      "name": "view/ViewSubstitution-dbg.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/ViewSubstitution.controller.js",
+      "isDebug": true,
+      "required": [
+        "cross/fnd/fiori/inbox/util/Substitution.js",
+        "cross/fnd/fiori/inbox/util/DataManager.js",
+        "sap/ca/scfld/md/controller/BaseFullscreenController.js",
+        "sap/ca/ui/message/message.js",
+        "sap/ca/ui/model/type/DateTime.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/ViewSubstitution.controller.js",
+      "module": "cross/fnd/fiori/inbox/view/ViewSubstitution.controller.js",
+      "required": [
+        "cross/fnd/fiori/inbox/util/Substitution.js",
+        "cross/fnd/fiori/inbox/util/DataManager.js",
+        "sap/ca/scfld/md/controller/BaseFullscreenController.js",
+        "sap/ca/ui/message/message.js",
+        "sap/ca/ui/model/type/DateTime.js",
+        "cross/fnd/fiori/inbox/util/ConfirmationDialogManager.js",
+        "cross/fnd/fiori/inbox/util/EmployeeCard.js"
+      ]
+    },
+    {
+      "name": "view/ViewSubstitution.view.xml",
+      "module": "cross/fnd/fiori/inbox/view/ViewSubstitution.view.xml",
+      "required": [
+        "sap/ui/core/mvc/XMLView.js",
+        "cross/fnd/fiori/inbox/view/ViewSubstitution.controller.js",
+        "sap/m/Page.js",
+        "sap/m/IconTabBar.js",
+        "sap/m/IconTabFilter.js",
+        "sap/m/Table.js",
+        "sap/m/Column.js",
+        "sap/m/Text.js",
+        "sap/ui/core/ExtensionPoint.js",
+        "sap/m/ColumnListItem.js",
+        "sap/ui/layout/HorizontalLayout.js",
+        "sap/m/Image.js",
+        "sap/ui/core/Icon.js",
+        "sap/m/ObjectIdentifier.js",
+        "sap/m/ObjectStatus.js"
+      ]
+    }
+  ]
+}
