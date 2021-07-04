@@ -1,0 +1,51 @@
+[{
+	"SAP__Origin": "Q7D_004_TGW ",
+	"TaskDefinitionID": "TS21500004",
+	"Name": "Country",
+	"Type": "Edm.String",
+	"Label": "Country",
+	"__metadata": {
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='Q7D_004_TGW',TaskDefinitionID='TS21500004',Name='Country')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	}
+}, {
+	"SAP__Origin": "Q7D_004_TGW ",
+	"TaskDefinitionID": "TS21500004",
+	"Name": "CustomNumberValue",
+	"Type": "Edm.String",
+	"Label": "CustomNumberValue",
+	"__metadata": {
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='Q7D_004_TGW',TaskDefinitionID='TS21500004',Name='CustomNumberValue')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	}
+}, {
+	"SAP__Origin": "Q7D_004_TGW ",
+	"TaskDefinitionID": "TS21500004",
+	"Name": "CustomNumberUnitValue",
+	"Type": "Edm.String",
+	"Label": "CustomNumberUnitValue",
+	"__metadata": {
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='Q7D_004_TGW',TaskDefinitionID='TS21500004',Name='CustomNumberUnitValue')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	}
+}, {
+	"SAP__Origin": "Q7D_004_TGW ",
+	"TaskDefinitionID": "TS21500004",
+	"Name": "City",
+	"Type": "Edm.String",
+	"Label": "City",
+	"__metadata": {
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='Q7D_004_TGW',TaskDefinitionID='TS21500004',Name='City')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	}
+}, {
+	"SAP__Origin": "Q7D_004_TGW ",
+	"TaskDefinitionID": "TS21500004",
+	"Name": "CustomObjectAttributeValue",
+	"Type": "Edm.String",
+	"Label": "CustomObjectAttributeValue",
+	"__metadata": {
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='Q7D_004_TGW',TaskDefinitionID='TS21500004',Name='CustomObjectAttributeValue')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	}
+}]

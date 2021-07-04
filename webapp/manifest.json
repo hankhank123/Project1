@@ -1,4 +1,92 @@
 {
+<<<<<<< HEAD
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "cross.fnd.fiori.inbox.CA_FIORI_INBOXExtension",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0"
+		},
+		"title": "{{SHELL_TITLE}}",
+		"dataSources": {
+			"TASKPROCESSING": {
+				"uri": "/sap/opu/odata/sap/ZTASKPROCESSING_SRV;mo/",
+				"settings": {
+					"localUri": "/cross.fnd.fiori.inbox/model/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://approvals",
+			"favIcon": "./resources/sap/ca/ui/themes/base/img/favicon/Approve_Requests.ico"
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb,sap_bluecrystal"
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"dependencies": {
+			"minUI5Version": "1.38.9"
+		},
+		"extends": {
+			"component": "cross.fnd.fiori.inbox",
+			"extensions": {
+				"sap.ui.controllerExtensions": {
+					"cross.fnd.fiori.inbox.view.S2": {
+						"controllerName": "cross.fnd.fiori.inbox.CA_FIORI_INBOXExtension.view.S2Custom"
+					},
+					"cross.fnd.fiori.inbox.view.S3": {
+						"controllerName": "cross.fnd.fiori.inbox.CA_FIORI_INBOXExtension.view.S3Custom"
+					},
+					"cross.fnd.fiori.inbox.view.MultiSelectSummary": {
+						"controllerName": "cross.fnd.fiori.inbox.CA_FIORI_INBOXExtension.view.MultiSelectSummaryCustom"
+					},
+					"cross.fnd.fiori.inbox.view.S2_FilterBar": {
+						"controllerName": "cross.fnd.fiori.inbox.CA_FIORI_INBOXExtension.view.S2_FilterBarCustom"
+					}
+				},
+				"sap.ui.viewReplacements": {
+					"cross.fnd.fiori.inbox.view.MultiSelectSummary": {
+						"viewName": "cross.fnd.fiori.inbox.CA_FIORI_INBOXExtension.view.MultiSelectSummaryCustom",
+						"type": "XML"
+					},
+					"cross.fnd.fiori.inbox.view.S2_FilterBar": {
+						"viewName": "cross.fnd.fiori.inbox.CA_FIORI_INBOXExtension.view.S2_FilterBarCustom",
+						"type": "XML"
+					}
+				},
+				"sap.ui.viewModifications": {
+					"cross.fnd.fiori.inbox.view.S2": {
+						"STAT2": {
+							"visible": true
+						},
+						"STAT1": {
+							"visible": false
+						}
+					}
+				}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		}
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/sap/zfiori_inbox/webapp",
+		"_version": "1.1.0"
+=======
 	"_version": "1.7.0",
 	"sap.app": {
 		"id": "Program2Program2",
@@ -71,5 +159,6 @@
 				"uri": "css/style.css"
 			}]
 		}
+>>>>>>> 45b6bf34f4eb12ebb7d1d54ee3350a8e9f662aed
 	}
 }

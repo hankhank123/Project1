@@ -1,0 +1,386 @@
+[{
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL1')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL1')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "/SWL/ALL/DYNCOL1",
+	"Type": "Edm.String",
+	"Label": "CA1"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL2')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL2')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "/SWL/ALL/DYNCOL2",
+	"Type": "Edm.String",
+	"Label": "CA2"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL3')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL3')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "/SWL/ALL/DYNCOL3",
+	"Type": "Edm.String",
+	"Label": "CA3"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL4')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL4')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "/SWL/ALL/DYNCOL4",
+	"Type": "Edm.String",
+	"Label": "CA4"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL5')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL5')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "/SWL/ALL/DYNCOL5",
+	"Type": "Edm.Decimal",
+	"Label": "CA5"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL6')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL6')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "/SWL/ALL/DYNCOL6",
+	"Type": "Edm.Boolean",
+	"Label": "CA6"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL7')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='%2FSWL%2FALL%2FDYNCOL7')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "/SWL/ALL/DYNCOL7",
+	"Type": "Edm.String",
+	"Label": "CA7"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='CUSTATTR')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='CUSTATTR')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "CUSTATTR",
+	"Type": "Edm.String",
+	"Label": "CustAttribute"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='CustomNumberValue')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='CustomNumberValue')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "CustomNumberValue",
+	"Type": "Edm.String",
+	"Label": "CustomNumberValue"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='CustomNumberUnitValue')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='CustomNumberUnitValue')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "CustomNumberUnitValue",
+	"Type": "Edm.String",
+	"Label": "CustomNumberUnitValue"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='CustomObjectAttributeValue')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004',Name='CustomObjectAttributeValue')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"Name": "CustomObjectAttributeValue",
+	"Type": "Edm.String",
+	"Label": "CustomObjectAttributeValue"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='InvoiceNoAttr')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='InvoiceNoAttr')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"Name": "InvoiceNoAttr",
+	"Type": "Edm.String",
+	"Label": "InvoiceNo"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='InvoiceDateAttr')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='InvoiceDateAttr')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"Name": "InvoiceDateAttr",
+	"Type": "Edm.Date",
+	"Label": "InvoiceDate"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='QuantityAttr')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='QuantityAttr')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"Name": "QuantityAttr",
+	"Type": "Edm.Int32",
+	"Label": "Quantity"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='SellerNameAttr')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='SellerNameAttr')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"Name": "SellerNameAttr",
+	"Type": "Edm.String",
+	"Label": "SellerName"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='ContactNoAttr')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='ContactNoAttr')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"Name": "ContactNoAttr",
+	"Type": "Edm.Int32",
+	"Label": "ContactNo"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='PriceAttr')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566',Name='PriceAttr')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"Name": "PriceAttr",
+	"Type": "Edm.Double",
+	"Label": "Price"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='DecimalA')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='DecimalA')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"Name": "DecimalA",
+	"Label": "Decimal",
+	"Type": "class java.math.BigDecimal"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='BooleanA')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='BooleanA')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"Type": "class java.lang.Boolean",
+	"Label": "Boolean",
+	"Name": "BooleanA"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='Date_timeA')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='Date_timeA')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"Type": "class java.util.Date",
+	"Label": "Date_time",
+	"Name": "Date_timeA"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='DateA')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='DateA')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"Type": "class java.util.Date",
+	"Label": "Date",
+	"Name": "DateA"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='FloatA')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='FloatA')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"Type": "class java.lang.Float",
+	"Label": "Float",
+	"Name": "FloatA"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='IntegerA')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='IntegerA')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"Type": "class java.lang.Integer",
+	"Label": "Integer",
+	"Name": "IntegerA"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='LongA')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='LongA')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"Type": "class java.lang.Long",
+	"Label": "Long",
+	"Name": "LongA"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='StringA')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='StringA')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"Type": "class java.lang.String",
+	"Label": "String",
+	"Name": "StringA",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"SAP__Origin": "BPM_PIRIN"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='TimeA')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8',Name='TimeA')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"Type": "class java.sql.Time",
+	"Label": "Time",
+	"Name": "TimeA",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"SAP__Origin": "BPM_PIRIN"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL1')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL1')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"Name": "/SWL/UUU/DYNCOL1",
+	"Type": "Edm.String",
+	"Label": "String"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL2')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL2')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"Name": "/SWL/UUU/DYNCOL2",
+	"Type": "Edm.Binary",
+	"Label": "Binary"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL3')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL3')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"Name": "/SWL/UUU/DYNCOL3",
+	"Type": "Edm.Decimal",
+	"Label": "Decimal"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL4')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL4')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"Name": "/SWL/UUU/DYNCOL4",
+	"Type": "Edm.Double",
+	"Label": "64 bit Float"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL5')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FUUU%2FDYNCOL5')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"Name": "/SWL/UUU/DYNCOL5",
+	"Type": "Edm.Time",
+	"Label": "Time: HHMMSS"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FGOETZINGER%2FDYNCOL1')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FGOETZINGER%2FDYNCOL1')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"Name": "/SWL/GOETZINGER/DYNCOL1",
+	"Type": "Edm.DateTime",
+	"Label": "Date: YYYYMMDD"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FGOETZINGER%2FDYNCOL2')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FGOETZINGER%2FDYNCOL2')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"Name": "/SWL/GOETZINGER/DYNCOL2",
+	"Type": "Edm.Int32",
+	"Label": "32 bit Integer"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FGOETZINGER%2FDYNCOL3')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FGOETZINGER%2FDYNCOL3')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"Name": "/SWL/GOETZINGER/DYNCOL3",
+	"Type": "Edm.Int64",
+	"Label": "64 bit Integer"
+}, {
+	"__metadata": {
+		"id": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FGOETZINGER%2FDYNCOL4')",
+		"uri": "CustomAttributeDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016',Name='%2FSWL%2FGOETZINGER%2FDYNCOL4')",
+		"type": "TASKPROCESSING.CustomAttributeDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"Name": "/SWL/GOETZINGER/DYNCOL4",
+	"Type": "Edm.Boolean",
+	"Label": "Boolean"
+}]

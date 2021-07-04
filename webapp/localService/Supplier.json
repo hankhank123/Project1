@@ -1,0 +1,9 @@
+[{
+	"SupplierID": "100000000",
+	"SupplierName": "SAP",
+	"Location": "Bangalore, India"
+}, {
+	"SupplierID": "100000001",
+	"SupplierName": "Becker Berlin",
+	"Location": "Berlin, Germany"
+}]

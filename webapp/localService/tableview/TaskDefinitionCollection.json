@@ -1,0 +1,60 @@
+[{
+	"__metadata": {
+		"id": "TaskDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004')",
+		"uri": "TaskDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004')",
+		"type": "TASKPROCESSING.TaskDefinition"
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskName": "Approve Employee Record",
+	"Category": "Task",
+	"CustomAttributeDefinitionData": {
+		"__deferred": {
+			"uri": "TaskDefinitionCollection(SAP__Origin='QE4910_TGW',TaskDefinitionID='TS91000001_WS91000001_0000000004')/CustomAttributeDefinitionData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566')",
+		"uri": "TaskDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566')",
+		"type": "TASKPROCESSING.TaskDefinition"
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"TaskName": "Invoice",
+	"Category": "TASK",
+	"CustomAttributeDefinitionData": {
+		"__deferred": {
+			"uri": "TaskDefinitionCollection(SAP__Origin='BPM_KARYA_VM',TaskDefinitionID='e03d999b7bc8f6413e5211e4bdf4005056bb7566')/CustomAttributeDefinitionData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8')",
+		"uri": "TaskDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8')",
+		"type": "TASKPROCESSING.TaskDefinition"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"TaskName": "BPM_All_CA_Test",
+	"Category": "TASK",
+	"CustomAttributeDefinitionData": {
+		"__deferred": {
+			"uri": "TaskDefinitionCollection(SAP__Origin='BPM_PIRIN',TaskDefinitionID='e007956a2be79d97501211e782eee4a7a0552dd8')/CustomAttributeDefinitionData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016')",
+		"uri": "TaskDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016')",
+		"type": "TASKPROCESSING.TaskDefinition"
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"TaskDefinitionID": "TS30000016",
+	"TaskName": "TGW_All_CA_Test",
+	"CustomAttributeDefinitionData": {
+		"__deferred": {
+			"uri": "TaskDefinitionCollection(SAP__Origin='TGW_PIRIN',TaskDefinitionID='TS30000016')/CustomAttributeDefinitionData"
+		}
+	}
+}]

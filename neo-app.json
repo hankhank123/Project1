@@ -2,6 +2,78 @@
   "welcomeFile": "/webapp/index.html",
   "routes": [
     {
+<<<<<<< HEAD
+      "path": "/sap/opu/odata",
+      "wattUsage": "odata_abap",
+      "target": {
+        "type": "destination",
+        "name": "S4",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "S4"
+    },
+    {
+      "path": "/sap/bc/ui5_ui5",
+      "wattUsage": "ui5_execute_abap",
+      "target": {
+        "type": "destination",
+        "name": "S4",
+        "entryPath": "/sap/bc/ui5_ui5"
+      },
+      "description": "S4"
+    },
+    {
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/dist/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/dist/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+=======
       "path": "/resources",
       "target": {
         "type": "service",
@@ -18,6 +90,7 @@
         "name": "sapui5",
         "entryPath": "/test-resources",
         "version": "1.52.13"
+>>>>>>> 45b6bf34f4eb12ebb7d1d54ee3350a8e9f662aed
       },
       "description": "SAPUI5 Test Resources"
     }

@@ -1,0 +1,1852 @@
+[{
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504105')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504105')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504105')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001504105",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record for Prashantha",
+	"Priority": "VERY_HIGH",
+	"Status": "READY",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1452518495000)\/",
+	"CreatedBy": "",
+	"CreatedByName": "Prashantha",
+	"CompletionDeadLine": "\/Date(1482518495000)\/",
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 3,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001504105;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504105')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504107')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504107')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504107')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": true,
+		"SetPriority": true,
+		"WorkflowLog": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001504107",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Radhika",
+	"Priority": "HIGH",
+	"Status": "RESERVED",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1452514499000)\/",
+	"CreatedBy": "",
+	"CreatedByName": "Radhika",
+	"CompletionDeadLine": "\/Date(1452518995000)\/",
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 4,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001504107;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504107')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504109')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504109')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504109')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001504109",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Kamal",
+	"Priority": "MEDIUM",
+	"Status": "READY",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1454518502000)\/",
+	"CreatedBy": "",
+	"CreatedByName": "Kamal",
+	"CompletionDeadLine": "\/Date(1452568495000)\/",
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001504109;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504109')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504113')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504113')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504113')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001504113",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Neelaja",
+	"Priority": "LOW",
+	"Status": "EXECUTED",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1462518510000)\/",
+	"CreatedBy": "Panikar",
+	"CreatedByName": "Neelaja",
+	"CompletionDeadLine": "\/Date(1451518495000)\/",
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 6,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001504113;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001504113')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532208')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532208')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532208')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532208",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Manjusha",
+	"Priority": "MEDIUM",
+	"Status": "READY",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1451529014000)\/",
+	"CreatedBy": "anandm",
+	"CreatedByName": "Manjusha",
+	"CompletionDeadLine": "\/Date(1452318495000)\/",
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532208;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532208')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532210')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532210')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532210')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532210",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Manna",
+	"Priority": "HIGH",
+	"Status": "RESERVED",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1435531158000)\/",
+	"CreatedBy": "Manna",
+	"CreatedByName": "Manna",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": true,
+	"PriorityNumber": 4,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532210;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532210')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532217')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532217')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532217')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532217",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Shyam",
+	"Priority": "LOW",
+	"Status": "RESERVED",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1455539453000)\/",
+	"CreatedBy": "Shyam",
+	"CreatedByName": "Shyam",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": true,
+	"PriorityNumber": 6,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532217;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532217')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532219')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532219')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532219')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532219",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Megan",
+	"Priority": "MEDIUM",
+	"Status": "IN_PROGRESS",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1458531469000)\/",
+	"CreatedBy": "Megan",
+	"CreatedByName": "Megan",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532219;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532219')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532221')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532221')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532221')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532221",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Fox",
+	"Priority": "MEDIUM",
+	"Status": "IN_PROGRESS",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1451531472000)\/",
+	"CreatedBy": "Fox",
+	"CreatedByName": "Fox",
+	"CompletionDeadLine": "\/Date(1452518415000)\/",
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": true,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532221;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532221')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532223')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532223')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532223')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532223",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Dinup",
+	"Priority": "MEDIUM",
+	"Status": "IN_PROGRESS",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1455531479000)\/",
+	"CreatedBy": "Dinup",
+	"CreatedByName": "Dinup",
+	"CompletionDeadLine": "\/Date(1452518195000)\/",
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532223;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532223')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532225')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532225')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532225')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532225",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Raj",
+	"Priority": "MEDIUM",
+	"Status": "IN_PROGRESS",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1455591478000)\/",
+	"CreatedBy": "Raj",
+	"CreatedByName": "Raj",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532225;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532225')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532227')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532227')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532227')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532227",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Ravi",
+	"Priority": "MEDIUM",
+	"Status": "IN_PROGRESS",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1457531480000)\/",
+	"CreatedBy": "Ravi",
+	"CreatedByName": "Ravi",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532227;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532227')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532229')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532229')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532229')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532229",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Ric",
+	"Priority": "MEDIUM",
+	"Status": "IN_PROGRESS",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1555531483000)\/",
+	"CreatedBy": "Ric",
+	"CreatedByName": "Ric",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532229;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532229')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532231')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532231')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532231')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532231",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record David",
+	"Priority": "MEDIUM",
+	"Status": "READY",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1455531186000)\/",
+	"CreatedBy": "David",
+	"CreatedByName": "David",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532231;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532231')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532233')",
+		"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532233')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532233')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "QE4910_TGW",
+	"InstanceID": "000001532233",
+	"TaskDefinitionID": "TS91000001_WS91000001_0000000004",
+	"TaskDefinitionName": "",
+	"TaskTitle": "Approve Employee Record Sam",
+	"Priority": "MEDIUM",
+	"Status": "IN_PROGRESS",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1455531412000)\/",
+	"CreatedBy": "Sam",
+	"CreatedByName": "Sam",
+	"CompletionDeadLine": "\/Date(1452518499000)\/",
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"HasAttachments": true,
+	"PriorityNumber": 5,
+	"GUI_Link": "sap/bc/gui/sap/its/webgui/?sap-client=910&sap-language=EN&~transaction=*SWNWIEX P_WI_ID=000001532233;P_APPL=UWL;P_ACTION=EXECUTE;DYNP_OKCODE=ONLI",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='QE4910_TGW',InstanceID='000001532233')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6816ca2457c611e6b77500000034b6ba')",
+		"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6816ca2457c611e6b77500000034b6ba')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6816ca2457c611e6b77500000034b6ba')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": false,
+		"AddComments": true,
+		"Attachments": false,
+		"Comments": true,
+		"CreatedByDetails": false,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": false,
+		"PotentialOwners": false,
+		"ProcessingLogs": false,
+		"ProcessorDetails": false,
+		"TaskDefinitionData": true,
+		"TaskObject": false,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": false,
+		"Forward": true,
+		"Release": true,
+		"Resubmit": false,
+		"SetPriority": false
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"InstanceID": "6816ca2457c611e6b77500000034b6ba",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"TaskDefinitionName": "Invoice",
+	"TaskTitle": "Invoice",
+	"Priority": "LOW",
+	"Status": "RESERVED",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1430042039000)\/",
+	"CreatedBy": "",
+	"CreatedByName": "",
+	"SubstitutedUserName": "",
+	"CompletionDeadLine": "\/Date(1470301234000)\/",
+	"SupportsComments": true,
+	"HasComments": true,
+	"SupportsAttachments": false,
+	"HasAttachments": false,
+	"HasPotentialOwners": false,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"PriorityNumber": 6,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6816ca2457c611e6b77500000034b6ba')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6941d0cd57c611e6bdc300000034b6ba')",
+		"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6941d0cd57c611e6bdc300000034b6ba')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6941d0cd57c611e6bdc300000034b6ba')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": false,
+		"AddComments": true,
+		"Attachments": false,
+		"Comments": true,
+		"CreatedByDetails": false,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": false,
+		"PotentialOwners": false,
+		"ProcessingLogs": false,
+		"ProcessorDetails": false,
+		"TaskDefinitionData": true,
+		"TaskObject": false,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": false,
+		"SetPriority": false
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"InstanceID": "6941d0cd57c611e6bdc300000034b6ba",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"TaskDefinitionName": "Invoice",
+	"TaskTitle": "Invoice",
+	"Priority": "LOW",
+	"Status": "READY",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1430042039000)\/",
+	"CreatedBy": "",
+	"CreatedByName": "",
+	"SubstitutedUserName": "",
+	"CompletionDeadLine": "\/Date(1470301236000)\/",
+	"SupportsComments": true,
+	"HasComments": true,
+	"SupportsAttachments": false,
+	"HasAttachments": false,
+	"HasPotentialOwners": false,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"PriorityNumber": 6,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6941d0cd57c611e6bdc300000034b6ba')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='69cdccd057c611e6a94900000034b6ba')",
+		"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='69cdccd057c611e6a94900000034b6ba')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='69cdccd057c611e6a94900000034b6ba')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": false,
+		"AddComments": true,
+		"Attachments": false,
+		"Comments": true,
+		"CreatedByDetails": false,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": false,
+		"PotentialOwners": false,
+		"ProcessingLogs": false,
+		"ProcessorDetails": false,
+		"TaskDefinitionData": true,
+		"TaskObject": false,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": false,
+		"SetPriority": false
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"InstanceID": "69cdccd057c611e6a94900000034b6ba",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"TaskDefinitionName": "Invoice",
+	"TaskTitle": "Invoice",
+	"Priority": "LOW",
+	"Status": "READY",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1430042039000)\/",
+	"CreatedBy": "",
+	"CreatedByName": "",
+	"SubstitutedUserName": "",
+	"CompletionDeadLine": "\/Date(1470301237000)\/",
+	"SupportsComments": true,
+	"HasComments": true,
+	"SupportsAttachments": false,
+	"HasAttachments": false,
+	"HasPotentialOwners": false,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"PriorityNumber": 6,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='69cdccd057c611e6a94900000034b6ba')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6a562a2257c611e68e2a00000034b6ba')",
+		"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6a562a2257c611e68e2a00000034b6ba')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6a562a2257c611e68e2a00000034b6ba')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": false,
+		"AddComments": true,
+		"Attachments": false,
+		"Comments": true,
+		"CreatedByDetails": false,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": false,
+		"PotentialOwners": false,
+		"ProcessingLogs": false,
+		"ProcessorDetails": false,
+		"TaskDefinitionData": true,
+		"TaskObject": false,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": false,
+		"SetPriority": false
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"InstanceID": "6a562a2257c611e68e2a00000034b6ba",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"TaskDefinitionName": "Invoice",
+	"TaskTitle": "Invoice",
+	"Priority": "LOW",
+	"Status": "READY",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1430042039000)\/",
+	"CreatedBy": "",
+	"CreatedByName": "",
+	"SubstitutedUserName": "",
+	"CompletionDeadLine": "\/Date(1470301238000)\/",
+	"SupportsComments": true,
+	"HasComments": true,
+	"SupportsAttachments": false,
+	"HasAttachments": false,
+	"HasPotentialOwners": false,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"PriorityNumber": 6,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6a562a2257c611e68e2a00000034b6ba')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6b0e7ce857c611e6c6e100000034b6ba')",
+		"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6b0e7ce857c611e6c6e100000034b6ba')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6b0e7ce857c611e6c6e100000034b6ba')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": false,
+		"AddComments": true,
+		"Attachments": false,
+		"Comments": true,
+		"CreatedByDetails": false,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": false,
+		"PotentialOwners": false,
+		"ProcessingLogs": false,
+		"ProcessorDetails": false,
+		"TaskDefinitionData": true,
+		"TaskObject": false,
+		"UIExecutionLink": true,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": false,
+		"SetPriority": false
+	},
+	"SAP__Origin": "BPM_KARYA_VM",
+	"InstanceID": "6b0e7ce857c611e6c6e100000034b6ba",
+	"TaskDefinitionID": "e03d999b7bc8f6413e5211e4bdf4005056bb7566",
+	"TaskDefinitionName": "Invoice",
+	"TaskTitle": "Invoice",
+	"Priority": "LOW",
+	"Status": "READY",
+	"StatusText": "",
+	"CreatedOn": "\/Date(1430042039000)\/",
+	"CreatedBy": "",
+	"CreatedByName": "",
+	"SubstitutedUserName": "",
+	"CompletionDeadLine": "\/Date(1470301239000)\/",
+	"SupportsComments": true,
+	"HasComments": true,
+	"SupportsAttachments": false,
+	"HasAttachments": false,
+	"HasPotentialOwners": false,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"PriorityNumber": 6,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_KARYA_VM',InstanceID='6b0e7ce857c611e6c6e100000034b6ba')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf1')",
+		"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf1')",
+		"type": "TASKPROCESSING.Task"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"InstanceID": "a4696672d90611e79720000001654cf1",
+	"UID": "a4696672d90611e79720000001654cf1",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"TaskDefinitionName": "BPM_All_CA_Test",
+	"TaskTitle": "Task_1",
+	"Priority": "Very High",
+	"PriorityNumber": 5,
+	"Status": "RESERVED",
+	"CreatedOn": "\/Date(1338454255001)\/",
+	"CompletedOn": null,
+	"SubstitutedUserName": null,
+	"HasComments": null,
+	"HasAttachments": null,
+	"HasPotentialOwners": null,
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": null,
+		"AddComments": null,
+		"Attachments": null,
+		"Comments": null,
+		"CreatedByDetails": null,
+		"CustomAttributeData": true,
+		"Description": null,
+		"PossibleAgents": null,
+		"PotentialOwners": null,
+		"ProcessingLogs": null,
+		"ProcessorDetails": null,
+		"TaskDefinitionData": null,
+		"TaskObject": null,
+		"UIExecutionLink": true,
+		"CancelResubmission": null,
+		"Confirm": null,
+		"Claim": null,
+		"Forward": null,
+		"Release": null,
+		"Resubmit": null,
+		"SetPriority": null
+	},
+	"SupportsAttachments": false,
+	"StatusText": null,
+	"CreatedBy": null,
+	"CreatedByName": "George Washington",
+	"Processor": null,
+	"StartDeadLine": null,
+	"CompletionDeadLine": null,
+	"ExpiryDate": null,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"SupportsComments": true,
+	"IsEscalated": false,
+	"IsSubstituted": false,
+	"SubstitutedUser": null,
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf1')/CustomAttributeData"
+		}
+	},
+	"UIExecutionLink": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf1')/UIExecutionLink"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf2')",
+		"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf2')",
+		"type": "TASKPROCESSING.Task"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"InstanceID": "a4696672d90611e79720000001654cf2",
+	"UID": "a4696672d90611e79720000001654cf2",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"TaskDefinitionName": "BPM_All_CA_Test",
+	"TaskTitle": "Task_2",
+	"Priority": "MEDIUM",
+	"PriorityNumber": 5,
+	"Status": "RESERVED",
+	"CreatedOn": "\/Date(1335393650002)\/",
+	"CompletedOn": null,
+	"SubstitutedUserName": null,
+	"HasComments": null,
+	"HasAttachments": null,
+	"HasPotentialOwners": null,
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": null,
+		"AddComments": null,
+		"Attachments": null,
+		"Comments": null,
+		"CreatedByDetails": null,
+		"CustomAttributeData": true,
+		"Description": null,
+		"PossibleAgents": null,
+		"PotentialOwners": null,
+		"ProcessingLogs": null,
+		"ProcessorDetails": null,
+		"TaskDefinitionData": null,
+		"TaskObject": null,
+		"UIExecutionLink": true,
+		"CancelResubmission": null,
+		"Confirm": null,
+		"Claim": null,
+		"Forward": null,
+		"Release": null,
+		"Resubmit": null,
+		"SetPriority": null
+	},
+	"SupportsAttachments": false,
+	"StatusText": null,
+	"CreatedBy": null,
+	"CreatedByName": "Sam Adams",
+	"Processor": null,
+	"StartDeadLine": null,
+	"CompletionDeadLine": null,
+	"ExpiryDate": null,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"SupportsComments": true,
+	"IsEscalated": false,
+	"IsSubstituted": false,
+	"SubstitutedUser": null,
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf2')/CustomAttributeData"
+		}
+	},
+	"UIExecutionLink": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf2')/UIExecutionLink"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf3')",
+		"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf3')",
+		"type": "TASKPROCESSING.Task"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"InstanceID": "a4696672d90611e79720000001654cf3",
+	"UID": "a4696672d90611e79720000001654cf3",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"TaskDefinitionName": "BPM_All_CA_Test",
+	"TaskTitle": "Task_3",
+	"Priority": "Very High",
+	"PriorityNumber": 5,
+	"Status": "RESERVED",
+	"CreatedOn": "\/Date(1332239440003)\/",
+	"CompletedOn": null,
+	"SubstitutedUserName": null,
+	"HasComments": null,
+	"HasAttachments": null,
+	"HasPotentialOwners": null,
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": null,
+		"AddComments": null,
+		"Attachments": null,
+		"Comments": null,
+		"CreatedByDetails": null,
+		"CustomAttributeData": true,
+		"Description": null,
+		"PossibleAgents": null,
+		"PotentialOwners": null,
+		"ProcessingLogs": null,
+		"ProcessorDetails": null,
+		"TaskDefinitionData": null,
+		"TaskObject": null,
+		"UIExecutionLink": true,
+		"CancelResubmission": null,
+		"Confirm": null,
+		"Claim": null,
+		"Forward": null,
+		"Release": null,
+		"Resubmit": null,
+		"SetPriority": null
+	},
+	"SupportsAttachments": false,
+	"StatusText": null,
+	"CreatedBy": null,
+	"CreatedByName": "Sam Adams",
+	"Processor": null,
+	"StartDeadLine": null,
+	"CompletionDeadLine": null,
+	"ExpiryDate": null,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"SupportsComments": true,
+	"IsEscalated": false,
+	"IsSubstituted": false,
+	"SubstitutedUser": null,
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf3')/CustomAttributeData"
+		}
+	},
+	"UIExecutionLink": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf3')/UIExecutionLink"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf4')",
+		"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf4')",
+		"type": "TASKPROCESSING.Task"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"InstanceID": "a4696672d90611e79720000001654cf4",
+	"UID": "a4696672d90611e79720000001654cf4",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"TaskDefinitionName": "BPM_All_CA_Test",
+	"TaskTitle": "Task_4",
+	"Priority": "MEDIUM",
+	"PriorityNumber": 5,
+	"Status": "RESERVED",
+	"CreatedOn": "\/Date(1316064030004)\/",
+	"CompletedOn": null,
+	"SubstitutedUserName": null,
+	"HasComments": null,
+	"HasAttachments": null,
+	"HasPotentialOwners": null,
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": null,
+		"AddComments": null,
+		"Attachments": null,
+		"Comments": null,
+		"CreatedByDetails": null,
+		"CustomAttributeData": true,
+		"Description": null,
+		"PossibleAgents": null,
+		"PotentialOwners": null,
+		"ProcessingLogs": null,
+		"ProcessorDetails": null,
+		"TaskDefinitionData": null,
+		"TaskObject": null,
+		"UIExecutionLink": true,
+		"CancelResubmission": null,
+		"Confirm": null,
+		"Claim": null,
+		"Forward": null,
+		"Release": null,
+		"Resubmit": null,
+		"SetPriority": null
+	},
+	"SupportsAttachments": false,
+	"StatusText": null,
+	"CreatedBy": null,
+	"CreatedByName": "Sam Adams",
+	"Processor": null,
+	"StartDeadLine": null,
+	"CompletionDeadLine": null,
+	"ExpiryDate": null,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"SupportsComments": true,
+	"IsEscalated": false,
+	"IsSubstituted": false,
+	"SubstitutedUser": null,
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf4')/CustomAttributeData"
+		}
+	},
+	"UIExecutionLink": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf4')/UIExecutionLink"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf5')",
+		"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf5')",
+		"type": "TASKPROCESSING.Task"
+	},
+	"SAP__Origin": "BPM_PIRIN",
+	"InstanceID": "a4696672d90611e79720000001654cf5",
+	"UID": "a4696672d90611e79720000001654cf5",
+	"TaskDefinitionID": "e007956a2be79d97501211e782eee4a7a0552dd8",
+	"TaskDefinitionName": "BPM_All_CA_Test",
+	"TaskTitle": "Task_5",
+	"Priority": "MEDIUM",
+	"PriorityNumber": 5,
+	"Status": "RESERVED",
+	"CreatedOn": "\/Date(1294701020005)\/",
+	"CompletedOn": null,
+	"SubstitutedUserName": null,
+	"HasComments": null,
+	"HasAttachments": null,
+	"HasPotentialOwners": null,
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": null,
+		"AddComments": null,
+		"Attachments": null,
+		"Comments": null,
+		"CreatedByDetails": null,
+		"CustomAttributeData": true,
+		"Description": null,
+		"PossibleAgents": null,
+		"PotentialOwners": null,
+		"ProcessingLogs": null,
+		"ProcessorDetails": null,
+		"TaskDefinitionData": null,
+		"TaskObject": null,
+		"UIExecutionLink": true,
+		"CancelResubmission": null,
+		"Confirm": null,
+		"Claim": null,
+		"Forward": null,
+		"Release": null,
+		"Resubmit": null,
+		"SetPriority": null
+	},
+	"SupportsAttachments": false,
+	"StatusText": null,
+	"CreatedBy": null,
+	"CreatedByName": "Sam Adams",
+	"Processor": null,
+	"StartDeadLine": null,
+	"CompletionDeadLine": null,
+	"ExpiryDate": null,
+	"SupportsClaim": false,
+	"SupportsRelease": true,
+	"SupportsForward": true,
+	"SupportsComments": true,
+	"IsEscalated": false,
+	"IsSubstituted": false,
+	"SubstitutedUser": null,
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf5')/CustomAttributeData"
+		}
+	},
+	"UIExecutionLink": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='BPM_PIRIN',InstanceID='a4696672d90611e79720000001654cf5')/UIExecutionLink"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777741')",
+		"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777741')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777741')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": false,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"InstanceID": "000007777741",
+	"TaskDefinitionID": "TS30000016",
+	"TaskDefinitionName": "TGW_All_CA_Test",
+	"TaskTitle": "Task_01",
+	"Priority": "MEDIUM",
+	"Status": "READY",
+	"StatusText": "Ready",
+	"CreatedOn": "\/Date(1401526255001)\/",
+	"CreatedBy": "WF-BATCH",
+	"CreatedByName": "Workflow-System",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777741')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777742')",
+		"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777742')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777742')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": false,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"InstanceID": "000007777742",
+	"TaskDefinitionID": "TS30000016",
+	"TaskDefinitionName": "TGW_All_CA_Test",
+	"TaskTitle": "Task_02",
+	"Priority": "MEDIUM",
+	"Status": "READY",
+	"StatusText": "Ready",
+	"CreatedOn": "\/Date(1398465650002)\/",
+	"CreatedBy": "WF-BATCH",
+	"CreatedByName": "Workflow-System",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777742')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777743')",
+		"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777743')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777743')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": false,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"InstanceID": "000007777743",
+	"TaskDefinitionID": "TS30000016",
+	"TaskDefinitionName": "TGW_All_CA_Test",
+	"TaskTitle": "Task_03",
+	"Priority": "MEDIUM",
+	"Status": "READY",
+	"StatusText": "Ready",
+	"CreatedOn": "\/Date(1395311440003)\/",
+	"CreatedBy": "WF-BATCH",
+	"CreatedByName": "George Washington",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777743')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777744')",
+		"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777744')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777744')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": false,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"InstanceID": "000007777744",
+	"TaskDefinitionID": "TS30000016",
+	"TaskDefinitionName": "TGW_All_CA_Test",
+	"TaskTitle": "Task_04",
+	"Priority": "MEDIUM",
+	"Status": "READY",
+	"StatusText": "Ready",
+	"CreatedOn": "\/Date(1379222430004)\/",
+	"CreatedBy": "WF-BATCH",
+	"CreatedByName": "Workflow-System",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777744')/CustomAttributeData"
+		}
+	}
+}, {
+	"__metadata": {
+		"id": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777745')",
+		"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777745')",
+		"type": "TASKPROCESSING.Task",
+		"content_type": "application/octet-stream",
+		"media_src": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777745')/$value"
+	},
+	"TaskSupports": {
+		"__metadata": {
+			"type": "TASKPROCESSING.TaskSupports"
+		},
+		"AddAttachments": true,
+		"AddComments": true,
+		"Attachments": true,
+		"Comments": true,
+		"CreatedByDetails": true,
+		"CustomAttributeData": true,
+		"Description": true,
+		"PossibleAgents": true,
+		"PotentialOwners": true,
+		"ProcessingLogs": true,
+		"ProcessorDetails": true,
+		"TaskDefinitionData": true,
+		"TaskObject": true,
+		"UIExecutionLink": false,
+		"CancelResubmission": false,
+		"Confirm": false,
+		"Claim": true,
+		"Forward": true,
+		"Release": false,
+		"Resubmit": true,
+		"SetPriority": true
+	},
+	"SAP__Origin": "TGW_PIRIN",
+	"InstanceID": "000007777745",
+	"TaskDefinitionID": "TS30000016",
+	"TaskDefinitionName": "TGW_All_CA_Test",
+	"TaskTitle": "Task_05",
+	"Priority": "MEDIUM",
+	"Status": "READY",
+	"StatusText": "Ready",
+	"CreatedOn": "\/Date(1357859420005)\/",
+	"CreatedBy": "WF-BATCH",
+	"CreatedByName": "Sam Adams",
+	"CompletionDeadLine": null,
+	"SupportsComments": true,
+	"SupportsAttachments": true,
+	"SupportsClaim": true,
+	"SupportsRelease": false,
+	"SupportsForward": true,
+	"HasAttachments": false,
+	"PriorityNumber": 5,
+	"GUI_Link": "",
+	"CustomAttributeData": {
+		"__deferred": {
+			"uri": "TaskCollection(SAP__Origin='TGW_PIRIN',InstanceID='000007777745')/CustomAttributeData"
+		}
+	}
+}]

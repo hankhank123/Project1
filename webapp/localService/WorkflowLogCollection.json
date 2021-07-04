@@ -1,0 +1,115 @@
+[{
+	"SAP__Origin": "Q7D_004_TGW",
+	"InstanceID": "000001750567",
+	"EventOrder": 6,
+	"ReferenceInstanceID": "000001750569",
+	"PerformedBy": "",
+	"PerformedByName": "",
+	"Status": "READY",
+	"Timestamp": "/Date(1439497996020)/",
+	"Description": "Check the supporting documents",
+	"SupportsNavigation": false,
+	"Result": "",
+	"ResultType": "",
+	"CreationTimestamp": "/Date(1439497996000)/",
+	"EndTimestamp": "",
+	"__metadata": {
+		"uri": "WorkflowLogCollection(SAP__Origin='Q7D_004_TGW',InstanceID='000001750567',EventOrder=6",
+		"type": "TASKPROCESSING.WorkflowLog"
+	}
+}, {
+	"SAP__Origin": "Q7D_004_TGW",
+	"InstanceID": "000001750567",
+	"EventOrder": 5,
+	"ReferenceInstanceID": "0000017505675",
+	"PerformedBy": "JUDY",
+	"PerformedByName": "Judy Williams",
+	"Status": "COMPLETED",
+	"Timestamp": "/Date(1439497996000)/",
+	"Description": "Check the task details before approving",
+	"SupportsNavigation": true,
+	"Result": "Task Approved",
+	"ResultType": "POSITIVE",
+	"CreationTimestamp": "/Date(1439197996000)/",
+	"EndTimestamp": "/Date(1439497996000)/",
+	"__metadata": {
+		"uri": "WorkflowLogCollection(SAP__Origin='Q7D_004_TGW',InstanceID='000001750567',EventOrder=5)",
+		"type": "TASKPROCESSING.WorkflowLog"
+	}
+}, {
+	"SAP__Origin": "Q7D_004_TGW",
+	"InstanceID": "000001750567",
+	"EventOrder": 4,
+	"ReferenceInstanceID": "000001750565",
+	"PerformedBy": "VIKRAM",
+	"PerformedByName": "Vikram Rao",
+	"Status": "COMPLETED",
+	"Timestamp": "/Date(1439087996000)/",
+	"Description": "Adjust Credit Limit for Harry",
+	"SupportsNavigation": true,
+	"Result": "Credit limit adjusted",
+	"ResultType": "NEUTRAL",
+	"CreationTimestamp": "/Date(1438887996000)/",
+	"EndTimestamp": "/Date(1439087996000)/",
+	"__metadata": {
+		"uri": "WorkflowLogCollection(SAP__Origin='Q7D_004_TGW',InstanceID='000001750567',EventOrder=4)",
+		"type": "TASKPROCESSING.WorkflowLog"
+	}
+}, {
+	"SAP__Origin": "Q7D_004_TGW",
+	"InstanceID": "000001750567",
+	"EventOrder": 3,
+	"ReferenceInstanceID": "000001750564",
+	"PerformedBy": "KATE",
+	"PerformedByName": "Kate Hudson",
+	"Status": "COMPLETED",
+	"Timestamp": "/Date(1438887996000)/",
+	"Description": "Approve Credit Limit for Harry",
+	"SupportsNavigation": true,
+	"Result": "Task rejected",
+	"ResultType": "NEGATIVE",
+	"CreationTimestamp": "/Date(1438587996000)/",
+	"EndTimestamp": "/Date(1438887996000)/",
+	"__metadata": {
+		"uri": "WorkflowLogCollection(SAP__Origin='Q7D_004_TGW',InstanceID='000001750567',EventOrder=3)",
+		"type": "TASKPROCESSING.WorkflowLog"
+	}
+}, {
+	"SAP__Origin": "Q7D_004_TGW",
+	"InstanceID": "000001750567",
+	"EventOrder": 2,
+	"ReferenceInstanceID": "0000017505673",
+	"PerformedBy": "SANDRA",
+	"PerformedByName": "Sandra Jane",
+	"Status": "IN_PROGRESS",
+	"Timestamp": "/Date(1439197996000)/",
+	"Description": "Approve the credit if it is less than 500 Euros",
+	"SupportsNavigation": true,
+	"Result": "",
+	"ResultType": "",
+	"CreationTimestamp": "/Date(1439197996000)/",
+	"EndTimestamp": null,
+	"__metadata": {
+		"uri": "WorkflowLogCollection(SAP__Origin='Q7D_004_TGW',InstanceID='000001750567',EventOrder=2)",
+		"type": "TASKPROCESSING.WorkflowLog"
+	}
+}, {
+	"SAP__Origin": "Q7D_004_TGW",
+	"InstanceID": "000001750567",
+	"EventOrder": 1,
+	"ReferenceInstanceID": "000001750563",
+	"PerformedBy": "ANDY",
+	"PerformedByName": "Andy Thomas",
+	"Status": "WORKFLOW_STARTED",
+	"Timestamp": "/Date(1438587996000)/",
+	"Description": "Credit Limit Approval",
+	"SupportsNavigation": false,
+	"Result": "Workflow started",
+	"ResultType": "",
+	"CreationTimestamp": "/Date(1438587996000)/",
+	"EndTimestamp": null,
+	"__metadata": {
+		"uri": "WorkflowLogCollection(SAP__Origin='Q7D_004_TGW',InstanceID='000001750567',EventOrder=1)",
+		"type": "TASKPROCESSING.WorkflowLog"
+	}
+}]
